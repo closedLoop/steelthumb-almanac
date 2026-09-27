@@ -8,7 +8,32 @@ The central idea is simple: **debug the garden.** Observe a real plant, identify
 
 This repository starts with that reference layer: readable, linked documents that people can keep, contribute to, and use with the AI tools of their choice. The initial goal is to document the plants in a real garden well, then expand through contributions from other gardeners and agents.
 
-> **Project status:** This README describes the project's purpose and intended structure. Crop profiles, procedures, schemas, and agent integrations are still to be built. Examples below illustrate the proposed approach.
+> **Project status:** Installable skill and Codex plugin packaging now includes a starter OKF bundle with the garden-observation workflow. The [imported basil collection](skills/steelthumb-almanac/references/basil/index.md) adds cultivation references, teaching material, and procedure drafts awaiting source review. Examples below illustrate the proposed approach.
+
+## Installation
+
+Choose one of these two methods for your agent environment. Both include the same offline-readable OKF knowledge bundle.
+
+### Agent skill with `npx skills`
+
+```bash
+npx skills add closedLoop/steelthumb-almanac --skill steelthumb-almanac
+```
+
+Select your agent interactively, or add `--agent codex` to install for Codex. Add `--global` for a user-wide install. The explicit skill name selects the gardening skill and excludes this repository’s contributor skills.
+
+### Codex plugin
+
+Register the marketplace, then install the plugin:
+
+```bash
+codex plugin marketplace add closedLoop/steelthumb-almanac
+codex plugin add steelthumb-almanac@steelthumb
+```
+
+Start a new Codex session after installation to pick up the skill.
+
+Use one method per agent environment to avoid duplicate skills. Neither method requires separate service credentials. These GitHub commands require the changes to be published; both methods have been tested against the local checkout. See [distribution and local testing](docs/distribution.md) for local install commands and the repository layout.
 
 ## Why an almanac, and why now?
 
@@ -63,6 +88,8 @@ For example, “my basil looks unhappy” can become a dated record of which lea
 One successful intervention is a local observation. Repeated, well-documented results can strengthen the shared guidance, while unsuccessful attempts help others understand its limits.
 
 ## Your garden and the shared reference
+
+This repository owns reusable knowledge, procedures, food profiles, and evidence. Garden operations and experiment design are maintained in [SteelThumb's garden-intelligence folder](https://github.com/closedloop-technologies/steelthumb/tree/main/docs/garden-intelligence). See the [repository ownership guide](docs/repository-boundaries.md) for the contract between them.
 
 The Almanac holds reusable knowledge. Your own `garden.md` can describe what is happening in your particular garden and link back to the relevant profiles and procedures.
 
@@ -120,4 +147,4 @@ Start with something you actually grow or a problem you have investigated. Open 
 
 Describe the question, provide the evidence, identify the conditions, and explain what remains unknown. Small, well-supported improvements are valuable. The first milestone is a useful collection for one real garden, with a repeatable way for other people and agents to expand it.
 
-The repository is licensed under the [MIT License](LICENSE). Referenced third-party material remains subject to its own license and attribution requirements.
+The repository is licensed under the [MIT License](LICENSE), except the [imported basil collection](skills/steelthumb-almanac/references/basil/attribution.md), which retains CC-BY-SA-4.0. Referenced third-party material remains subject to its own license and attribution requirements.

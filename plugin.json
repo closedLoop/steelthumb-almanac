@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "steelthumb-almanac",
+  "version": "0.1.0",
+  "description": "Portable gardening knowledge and an evidence-based garden observation workflow.",
+  "author": {
+    "name": "SteelThumb contributors",
+    "url": "https://github.com/closedLoop/steelthumb-almanac"
+  },
+  "homepage": "https://github.com/closedLoop/steelthumb-almanac",
+  "repository": "https://github.com/closedLoop/steelthumb-almanac",
+  "license": "MIT",
+  "keywords": [
+    "gardening",
+    "almanac",
+    "okf",
+    "provenance"
+  ]
+}
