@@ -1,0 +1,78 @@
+name: Garden field report or tip
+description: Share an actual gardening attempt, a new tip, or a follow-up outcome.
+title: "[Field report]: "
+labels: [needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Firsthand experience is welcome. Unknown details can stay unknown; photos and measurements are optional.
+        This issue is public. Share only material you intend to publish, without private location details.
+        See [CONTRIBUTING.md](https://github.com/closedLoop/steelthumb-almanac/blob/main/CONTRIBUTING.md).
+  - type: dropdown
+    id: account
+    attributes:
+      label: What are you sharing?
+      options:
+        - An attempt I carried out myself
+        - A follow-up or correction to an existing report
+        - Someone else's account, with attribution
+        - An idea or tip I have not tried
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: Public credit
+      description: Chosen name or pseudonym; identify the observer separately if relaying an account.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Crop and growing context
+      description: Crop, cultivar if known, growing method, medium, relevant light/temperature/season, and dates. Approximate dates are fine.
+    validations:
+      required: true
+  - type: textarea
+    id: procedure
+    attributes:
+      label: Instructions and actual steps
+      description: Link the procedure and version/commit if known, or describe your own method. Include actual steps, deviations, and simultaneous changes. For an untried idea, describe the proposal.
+    validations:
+      required: true
+  - type: textarea
+    id: observations
+    attributes:
+      label: Baseline and observed outcome
+      description: What did you see before and afterward? State the intended result, follow-up interval, plants/attempts, successes, failures, partial results, and pending checks. If untried, say so. Keep explanations in the next field.
+    validations:
+      required: true
+  - type: textarea
+    id: interpretation
+    attributes:
+      label: Interpretation and limitations
+      description: What do you think happened? What is unknown? Was there a comparison? What would you check next?
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Related reports and optional evidence
+      description: Link earlier reports of this same attempt so it is counted once. Add permitted photos, measurements, excerpts, or sources with credit and reuse terms. Remove private metadata from attachments.
+  - type: dropdown
+    id: license
+    attributes:
+      label: License for your original contribution
+      description: Existing third-party material retains its own terms. Adaptations of the bundled basil material retain CC-BY-SA-4.0.
+      options:
+        - MIT for my original contribution
+        - CC-BY-SA-4.0 for my original contribution or basil adaptation
+        - Another license or attribution question; discuss before bundling
+    validations:
+      required: true
+  - type: checkboxes
+    id: publication
+    attributes:
+      label: Publication agreement
+      options:
+        - label: I agree that my supplied original material may be incorporated into the public Almanac with the credit and license stated above. I have identified third-party material separately; unresolved permissions must be clarified before bundling.
+          required: true

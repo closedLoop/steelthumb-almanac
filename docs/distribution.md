@@ -18,7 +18,10 @@ skills/steelthumb-almanac/
   references/                                # Canonical OKF bundle root
     index.md
     procedures/review-garden-observations.md
-    basil/                                   # Imported drafts, assets, and license
+    crops/                                   # Scoped profiles and navigation
+    systems/                                 # Growing arrangements
+    guides/                                  # Teaching and reference guides
+    sources/                                 # Source records and license text
 ```
 
 Author future crops, procedures, sources, and related assets inside this bundle. Keep templates, contributor instructions, and private garden journals outside it. Distribute the `skills/steelthumb-almanac/references/` directory alone when a consumer wants plain OKF rather than an agent skill. No build or duplicated content tree is needed.
@@ -86,4 +89,6 @@ Remote install commands require these files to be committed and pushed to the se
 
 ## Bundled basil material
 
-The canonical bundle also includes `basil/index.md` and its linked imported documents, image, source-hash manifest, and license text. These files travel with either installer. They are unreviewed drafts under CC-BY-SA-4.0; see [attribution](../skills/steelthumb-almanac/references/basil/attribution.md). The rest of the skill retains its existing license.
+Start at [the basil profile](../skills/steelthumb-almanac/references/crops/basil.md). Its linked procedures, system description, guides, source records, and license text travel with either installer. Adapted documents remain unreviewed drafts under CC-BY-SA-4.0; see [attribution](../skills/steelthumb-almanac/references/sources/steelthumb-basil.md). The old import folder and image are no longer distributed. Historical source hashes live in the attribution record; the rest of the skill retains its existing license.
+
+Field-report authoring instructions and contributor templates remain outside the bundle. Real published reports will be bundled as source concepts when supplied and accepted; none are fabricated to populate that directory. The structural refactor does not change installer discovery or plugin identity.

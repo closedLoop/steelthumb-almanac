@@ -1,6 +1,6 @@
 # SteelThumb ontology
 
-Status: proposed v0.2 reference ontology, 2026-09-27. This document defines an initial authoring model, not an implemented schema or a claim that existing content conforms. The [domain glossary](../CONTEXT.md) defines the reference language. The [basil and potato examples](ontology-examples/README.md) exercise the model with sourced guidance, food composition, and explicitly modeled yield scenarios. See [repository ownership](repository-boundaries.md) for garden operations and experiments maintained in SteelThumb.
+Status: v0.2 reference authoring model, 2026-09-27. Core types and embedded claims are used by the refactored installed basil collection; the wider vocabulary remains an evolving proposal, not a complete implemented schema or conformance claim. The [domain glossary](../CONTEXT.md) defines the reference language. The adopted [evidence contract](evidence.md) adds field reports, revision references, and scoped reviews. The [basil and potato examples](ontology-examples/README.md) exercise additional types with sourced guidance, food composition, and explicitly modeled yield scenarios. See [repository ownership](repository-boundaries.md) for garden operations and experiments maintained in SteelThumb.
 
 ## Purpose and scope
 
@@ -18,7 +18,7 @@ This is a lightweight domain ontology expressed through OKF documents and projec
 
 ## Document types
 
-These exact `type` strings are proposed SteelThumb vocabulary, not types mandated by OKF. A type describes the document's primary subject; tags provide additional grouping.
+These exact `type` strings are SteelThumb vocabulary, not types mandated by OKF. Core types are used in the installed bundle; other proposed types are exercised in examples or await content. A type describes the document's primary subject; tags provide additional grouping.
 
 ### Shared reference
 
@@ -34,6 +34,8 @@ These exact `type` strings are proposed SteelThumb vocabulary, not types mandate
 | `MeasurementMethod` | Instructions for observing a property, including units and limitations | Distinct from a measured value |
 | `Tool` | Equipment used for growing or measurement | Distinct from the method that uses it |
 | `Source` | A citable artifact with attribution and reuse information | It can support several claims without supporting every claim in a document |
+| `FieldReport` | A published account of an actual attempt, with observations, outcomes, and limitations | A source of evidence, not the private operational journal or a universal efficacy claim |
+| `Guide` | A teaching sequence or cross-cutting reference | Links to maintained procedures; does not duplicate their numeric settings |
 | `Claim` | An independently reusable or contested assertion | Usually begin with an embedded claim instead of a separate file |
 | `FoodProfile` | Food composition for a specified edible part and preparation state | Generic composition is not a cultivar assay or a harvest forecast |
 | `YieldEstimate` | A reusable worked calculation or published estimate of edible mass, energy, or nutrient yield | A particular garden's calculation and inventory ledger belong to SteelThumb |
@@ -96,6 +98,10 @@ Keep project extensions under one `steelthumb` mapping:
 | `identity` | Optional names, taxonomic rank, and external identifiers; use only established identity |
 | `food` | For food profiles: part, preparation, mass basis, cultivar scope, and nutrient rows |
 | `yield` | For estimates: input origin, harvested mass, edible fraction, area, period, matching food profile, formula and results |
+| `field_report` | Published attempt summaries, contributors, observations, outcomes, and publication terms; see [evidence contract](evidence.md) |
+| `source_revisions` | Source-ID mapping to revision-qualified evidence references |
+| `reviews` | Actual scoped checks of identified revisions, including basis, result, and limitations |
+| `license`, `review_status` | Reuse notice and explicit editorial review state; neither substitutes for source evidence |
 
 OKF concept identity remains its bundle path without `.md`. Claim IDs are document-local and should be stable across edits. Display titles can change without changing identity. Missing fields mean unknown or unrecorded; an empty list means a list was supplied with no entries. Neither means false.
 
@@ -167,7 +173,7 @@ For reference provenance, profile revisions and source artifacts can be PROV ent
 
 A `Procedure` describes intended work and may map to a PROV plan. Its existence does not establish that anyone executed it. Operational activities, record generation, and experiment runs are mapped in SteelThumb's owning model.
 
-These are mapping intentions, not an RDF serialization. Introduce a concrete PROV export only with explicit identifiers, relation direction, and validity checks. Keep source lineage distinct from botanical or causal relationships.
+The adopted [evidence contract](evidence.md#project-mapping-to-w3c-prov) makes the project mapping explicit, including relation directions and revision identity. It is not an RDF serialization. Introduce a concrete PROV export only with explicit identifiers, relation direction, and validity checks. Keep source lineage distinct from botanical or causal relationships.
 
 ## Review cases
 
@@ -189,4 +195,4 @@ An initial validator should distinguish YAML/OKF errors, SteelThumb profile erro
 - [W3C PROV-DM, 30 April 2013 Recommendation](https://www.w3.org/TR/2013/REC-prov-dm-20130430/): provenance concepts and relationships.
 - [Project README](../README.md): gardening scope and observation workflow.
 
-Resolve against further reference examples: controlled growth-stage terms, general unit vocabulary, taxonomic identifier authority, and source-kind vocabulary. The cross-repository reference contract, operational record shapes, and harvest-event design live in [SteelThumb's garden-intelligence folder](https://github.com/closedloop-technologies/steelthumb/tree/main/docs/garden-intelligence). Until resolved, preserve source wording rather than inventing precision. This proposal does not migrate existing installed-bundle documents or change installation paths.
+Resolve against further reference examples: controlled growth-stage terms, general unit vocabulary, taxonomic identifier authority, and source-kind vocabulary. The cross-repository reference contract, operational record shapes, and harvest-event design live in [SteelThumb's garden-intelligence folder](https://github.com/closedloop-technologies/steelthumb/tree/main/docs/garden-intelligence). Until resolved, preserve source wording rather than inventing precision. The [basil refactor](basil-refactor.md) applies core authoring conventions inside the existing installed-bundle root; installation paths are unchanged.

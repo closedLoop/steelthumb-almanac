@@ -8,7 +8,7 @@ The central idea is simple: **debug the garden.** Observe a real plant, identify
 
 This repository starts with that reference layer: readable, linked documents that people can keep, contribute to, and use with the AI tools of their choice. The initial goal is to document the plants in a real garden well, then expand through contributions from other gardeners and agents.
 
-> **Project status:** Installable skill and Codex plugin packaging now includes a starter OKF bundle with the garden-observation workflow. The [imported basil collection](skills/steelthumb-almanac/references/basil/index.md) adds cultivation references, teaching material, and procedure drafts awaiting source review. Examples below illustrate the proposed approach.
+> **Project status:** The installable skill and Codex plugin include an [OKF knowledge bundle](skills/steelthumb-almanac/references/index.md), the garden-observation workflow, and [basil guidance](skills/steelthumb-almanac/references/crops/basil.md) organized into crop profiles, procedures, growing systems, guides, and sources. Basil content remains draft material awaiting source review. The field-report contribution format is documented; no real field reports or validated growing outcomes have been added.
 
 ## Installation
 
@@ -45,7 +45,7 @@ The Almanac is designed around that relationship. People bring goals, judgment, 
 
 ## What belongs in the Almanac?
 
-The intended format follows an **Open Knowledge Format (OKF)** approach: human-readable Markdown, structured front matter for key facts, stable identifiers, and explicit links between related documents and their evidence. The exact schema will evolve as we work through real examples.
+The canonical bundle uses **Open Knowledge Format (OKF) v0.2**: human-readable Markdown, YAML frontmatter, path-based concept identifiers, and explicit links between documents and their evidence. Gardening types and claim fields are Almanac conventions described in the [ontology](docs/ontology.md); [field reports and provenance](docs/evidence.md) have a separate authoring contract. These conventions are not a claim that every source or gardening recommendation has been verified.
 
 | Kind of knowledge | What it should contain |
 | --- | --- |
@@ -56,9 +56,34 @@ The intended format follows an **Open Knowledge Format (OKF)** approach: human-r
 | Tools and measurements | How to observe and measure conditions, with units and limitations. |
 | Evidence and sources | Research, extension guidance, seed supplier information, and documented grower experience. |
 
+A **crop** is a practical category of plants grown for a purpose; a **cultivar** is a named cultivated selection. Broad basil guidance, sweet-basil guidance, and a claim about a specific cultivar have different scopes. Create a separate cultivar profile when supported differences warrant it, rather than copying the entire crop guide.
+
+### Browse the basil collection
+
+Start with the [basil profile](skills/steelthumb-almanac/references/crops/basil.md), or the explicitly scoped [sweet-basil profile](skills/steelthumb-almanac/references/crops/sweet-basil.md). The profiles link to sowing, transplanting, care, propagation, harvesting, symptom investigation, and seasonal continuity. The [learning guide](skills/steelthumb-almanac/references/guides/basil-learning-guide.md) follows those same procedures instead of maintaining separate instructions.
+
+The bundle is organized by concept type:
+
+```text
+skills/steelthumb-almanac/
+  SKILL.md
+  references/                     # Independently usable OKF bundle
+    index.md
+    crops/                        # Identity, scope, and navigation
+    procedures/                   # Complete tasks and follow-up
+    systems/                      # Growing arrangements and constraints
+    guides/                       # Teaching and cross-cutting guidance
+    sources/                      # Attribution and supporting material
+      licenses/
+```
+
+Cultivar and field-report directories are added when supported content exists. The former basil import folder has been removed; [attribution and pinned source references](skills/steelthumb-almanac/references/sources/steelthumb-basil.md) remain. [Refactor coverage](docs/basil-refactor.md) accounts for the old documents and task fragments. The separate [ontology examples](docs/ontology-examples/README.md) are development fixtures, not additional installed guidance or observed garden results.
+
 Food uses, nutrition, calories, yields, and practical tips can be included where they are supported. Quantities should identify their basis: for example, edible fresh weight versus dry weight, or yield per plant versus per unit area over a specified period.
 
 ### Example: a Genovese basil profile
+
+The following remains an authoring example, not a claim that an installed Genovese profile already contains these fields.
 
 A profile should begin with a quick reference card: the information you would look for on a seed packet, presented in a form that both a person and an agent can read.
 
@@ -120,6 +145,16 @@ The aim is a highly cited reference that makes the basis of its advice visible.
 - **Make uncertainty visible.** Keep conflicting findings, gaps, and untested hypotheses explicit.
 - **Respect attribution and reuse terms.** Link to sources, write original summaries, and preserve the attribution and license of any material legitimately reused.
 
+Each important assertion can have a stable claim ID and source-specific evidence links. Readers should be able to follow a recommendation to the particular source passage or field-report outcome that supports, contradicts, or qualifies it. Documentary origin, actual use, observed outcome, and review are recorded separately.
+
+### Contribute what happened in your garden
+
+Use the **Garden field report or tip** [issue form](https://github.com/closedLoop/steelthumb-almanac/issues/new/choose) to share an attempt, a follow-up, or an untried idea. Include the crop, conditions, procedure/version if known, actual steps and deviations, dates, observations, and outcome. Missing details stay unknown; photos and precise measurements are optional. The form becomes available on GitHub once its configuration is published to the repository's default branch.
+
+A selected, consented account can become a published **field report**, credited to its contributor and linked to specific claims. A new method can become a draft procedure whose later attempts refer to the version actually followed. Failures, partial results, and pending follow-ups remain useful evidence. Private garden journals stay in their owners' workspaces.
+
+Trying a procedure does not establish that it worked, and a successful outcome does not by itself establish causation or universal applicability. A review records what someone checked; it does not imply independent repetition. The Almanac preserves these distinctions rather than assigning one “validated” flag. See [CONTRIBUTING.md](CONTRIBUTING.md) for submission, publication, licensing, and review steps.
+
 Agents and people are welcome to propose additions. Contributions should include verifiable sources or clearly labeled firsthand observations. Human review remains part of maintaining the shared reference.
 
 ## Portable knowledge, useful over time
@@ -143,8 +178,10 @@ These are references and potential foundations, not bundled datasets or endorsem
 
 ## How to contribute
 
-Start with something you actually grow or a problem you have investigated. Open an issue or pull request with a crop profile, a procedure, a correction, a useful source, or a documented garden observation.
+To build reference material for another crop in this checkout, use the [build-crop-knowledge contributor skill](.agents/skills/build-crop-knowledge/SKILL.md), for example: “Use $build-crop-knowledge to add carrots for outdoor home gardens.” It guides source research, crop and procedure organization, claim-level citations, and incorporation of real field reports. It is separate from the consumer gardening skill installed above.
+
+Start with something you actually grow or a problem you have investigated. Follow [CONTRIBUTING.md](CONTRIBUTING.md) and open an issue with a crop profile proposal, a procedure, a correction, a useful source, or a documented garden observation. Link subsequent file changes to that discussion.
 
 Describe the question, provide the evidence, identify the conditions, and explain what remains unknown. Small, well-supported improvements are valuable. The first milestone is a useful collection for one real garden, with a repeatable way for other people and agents to expand it.
 
-The repository is licensed under the [MIT License](LICENSE), except the [imported basil collection](skills/steelthumb-almanac/references/basil/attribution.md), which retains CC-BY-SA-4.0. Referenced third-party material remains subject to its own license and attribution requirements.
+The repository is licensed under the [MIT License](LICENSE), except the [adapted basil material](skills/steelthumb-almanac/references/sources/steelthumb-basil.md), which retains CC-BY-SA-4.0. Referenced third-party material remains subject to its own license and attribution requirements.
