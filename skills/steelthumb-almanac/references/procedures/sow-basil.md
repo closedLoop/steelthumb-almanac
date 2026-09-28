@@ -1,59 +1,68 @@
 ---
 type: Procedure
 title: Sow basil in growing medium
-description: Start basil from seed in trays or an outdoor bed with explicit local context.
+description: Separate Minnesota outdoor sowing from the RHS indoor starting method.
 status: draft
 sources:
-- id: core
-  resource: https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/domain-knowledge/core_facts.md
-  title: SteelThumb basil cultivation reference
-- id: wvu
-  resource: https://extension.wvu.edu/lawn-gardening-pests/gardening/wv-garden-guide/growing-basil-in-west-virginia
-  title: Growing Basil — West Virginia University Extension
-- id: uf
-  resource: https://gardeningsolutions.ifas.ufl.edu/plants/edibles/vegetables/basil/
-  title: Basil — University of Florida IFAS
+- id: umn-basil
+  title: Growing basil in home gardens — Minnesota Extension
+  resource: https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/growing-basil
+- id: rhs-basil
+  title: How to grow basil — RHS Advice Team
+  resource: https://www.rhs.org.uk/herbs/basil/grow-your-own
 steelthumb:
   ontology_version: '0.2'
-  review_status: unreviewed-source-adaptation
   license: CC-BY-SA-4.0
   relations:
   - predicate: applies_to
     target: /crops/basil.md
+  claims:
+  - id: outdoor-sowing-umn
+    kind: recommendation
+    statement: After frost risk, sow ¼ inch deep; thin to 6–12 inches at 2–3 true-leaf pairs.
+    applicability:
+      conditions: Minnesota outdoor beds; not container density.
+    evidence:
+    - source_id: umn-basil
+      relation: supports
+      locator: Planting → Direct seeding
+  - id: indoor-sowing-rhs
+    kind: recommendation
+    statement: Indoors, surface-sow into damp seed compost under a propagator or clear cover, around 20°C.
+    applicability:
+      conditions: RHS UK indoor method; separate from Minnesota soil-cover method.
+    evidence:
+    - source_id: rhs-basil
+      relation: supports
+      locator: Sowing indoors
 ---
 
 # Sow basil in growing medium
 
-Applies to [basil](../crops/basil.md) within the scope stated below.
+Applies to [basil](../crops/basil.md), with ordinary seed-grown sweet basil as the working scope. Use the identified cultivar's packet if it gives a different method; record that choice.
 
-## Purpose and scope
+## Before starting and steps
 
-Start basil from seed in growing medium, using the earlier cultivation reference's indoor-tray or outdoor-bed guidance. Cultivar is unspecified. Rockwool has a [separate procedure](sow-basil-in-rockwool.md). These are source-derived draft instructions, not a tested schedule.[^core]
-
-## Prerequisites
-
-Identify the seed product and cultivar where known, intended growing location, medium, and local seasonal conditions. Preserve packet instructions separately if they differ from general guidance.
-
-## Steps
-
-1. Choose indoor starting or outdoor sowing. The earlier guide places outdoor sowing after frost risk; local timing still needs to be established.[^wvu][^uf]
-2. Prepare the growing medium and label the seed lot, cultivar, and sowing date. The earlier sowing discussion recommends shallow covering, around 1/8–1/4 inch, but other passages select 1/4 inch; preserve the source/product context.[^core][^wvu]
-3. Maintain moisture and record the conditions used. The earlier guide proposes warmth around 70–75°F for indoor starts; it does not establish a cultivar-specific optimum.[^core]
-4. Observe emergence and seedling condition. Thin crowded seedlings as appropriate to the intended spacing, and document what was removed.[^core]
-5. Use [transplanting](transplant-basil.md) when moving seedlings, including gradual acclimation for outdoor conditions.[^core]
+1. Have labeled seed, drained trays or prepared ground, suitable growing medium, and the chosen method below. Determine local frost timing before selecting the outdoor route.
+2. Follow one source setting below; do not average surface sowing with a covered-seed method.
+3. Keep seedlings bright and moist without overwatering, as RHS directs.[^rhs-basil] Record emergence and any collapse; use [investigation](investigate-basil-symptoms.md) for losses.
+4. Use [transplanting](transplant-basil.md) when moving plants. [Rockwool](sow-basil-in-rockwool.md) remains a separate, incomplete route.
 
 ## Follow-up
 
-Record seeds sown, seedlings emerged, dates, medium, moisture observations, and losses. The old text alternates between 5–7 and 5–10 days to emergence; neither is a guarantee. An observation schedule and recordkeeping are Almanac conventions, not evidence for those timing claims.
+Record sowing date, lot, method, medium, emergence count, and conditions. A poor stand calls for checking the actual packet, moisture and temperature before resowing; no fixed emergence guarantee is supplied here.
 
-## Evidence gaps
+## Source settings
 
-Source review must resolve sowing depth, temperature, and emergence ranges for the intended context. Report any departures and the procedure revision actually used. Starting new batches later in the season is a proposed continuity method, not a promise of uninterrupted yield.
+<a id="outdoor-sowing-umn"></a>
+After frost risk, sow ¼ inch deep; thin to 6–12 inches at 2–3 true-leaf pairs.[^umn-basil]
 
-## Evidence and reuse
+<a id="indoor-sowing-rhs"></a>
+Indoors, surface-sow into damp seed compost under a propagator or clear cover, around 20°C.[^rhs-basil]
 
-This document reorganizes earlier SteelThumb material. Source attribution is retained; the underlying horticultural claims have not been rechecked. It records no real-world attempts or outcomes. Adapted from SteelThumb contributors under CC-BY-SA-4.0; see [attribution and changes](../sources/steelthumb-basil.md).[^core]
+## Evidence scope
 
-[^core]: [SteelThumb basil cultivation reference](https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/domain-knowledge/core_facts.md).
-[^wvu]: [Growing Basil — West Virginia University Extension](https://extension.wvu.edu/lawn-gardening-pests/gardening/wv-garden-guide/growing-basil-in-west-virginia).
-[^uf]: [Basil — University of Florida IFAS](https://gardeningsolutions.ifas.ufl.edu/plants/edibles/vegetables/basil/).
+Gardening claims cite the supporting passages directly. The assembled sequence and recording prompts are editorial guidance; no field outcomes are asserted.
+
+[^umn-basil]: [Growing basil in home gardens — Minnesota Extension](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/growing-basil).
+[^rhs-basil]: [How to grow basil — RHS Advice Team](https://www.rhs.org.uk/herbs/basil/grow-your-own).

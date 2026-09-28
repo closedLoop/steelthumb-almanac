@@ -89,6 +89,6 @@ Remote install commands require these files to be committed and pushed to the se
 
 ## Bundled basil material
 
-Start at [the basil profile](../skills/steelthumb-almanac/references/crops/basil.md). Its linked procedures, system description, guides, source records, and license text travel with either installer. Adapted documents remain unreviewed drafts under CC-BY-SA-4.0; see [attribution](../skills/steelthumb-almanac/references/sources/steelthumb-basil.md). The old import folder and image are no longer distributed. Historical source hashes live in the attribution record; the rest of the skill retains its existing license.
+Start at [the basil profile](../skills/steelthumb-almanac/references/crops/basil.md). Its linked procedures, system description, guides, source records, and license text travel with either installer. Adapted documents remain unreviewed drafts under CC-BY-SA-4.0; see [attribution](../skills/steelthumb-almanac/references/sources/basil-research.md). The old import folder and image are no longer distributed. Historical source hashes live in the attribution record; the rest of the skill retains its existing license.
 
 Field-report authoring instructions and contributor templates remain outside the bundle. Real published reports will be bundled as source concepts when supplied and accepted; none are fabricated to populate that directory. The structural refactor does not change installer discovery or plugin identity.

@@ -1,51 +1,62 @@
 ---
 type: Procedure
 title: Save basil seed and plan seasonal continuity
-description: Separate seed collection from vegetative replacement and retain identity uncertainty.
+description: Recognize mature basil seed, clean it and record identity limitations.
 status: draft
 sources:
-- id: core
-  resource: https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/domain-knowledge/core_facts.md
-  title: SteelThumb basil cultivation reference
-- id: tasks
-  resource: https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/tasks/tasks.yaml
-  title: SteelThumb task instruction templates
+- id: ssc-basil
+  title: Basil — Seed Savers Connect; Liz Worth, Julie Davies, Nellie Pryke
+  resource: https://www.seedsavers.org.au/2025/09/14/basil/
 steelthumb:
   ontology_version: '0.2'
-  review_status: unreviewed-source-adaptation
   license: CC-BY-SA-4.0
   relations:
   - predicate: applies_to
     target: /crops/basil.md
+  claims:
+  - id: mature-seed-ssc
+    kind: recommendation
+    statement: Look for brown bracts and brown-black seed; harvest flowering stems and dry under cover.
+    applicability:
+      conditions: Seed-bearing basil; Seed Savers Connect, 2025. Does not establish cultivar purity.
+    evidence:
+    - source_id: ssc-basil
+      relation: supports
+      locator: Seed maturity; Harvest
+  - id: clean-store-seed-ssc
+    kind: recommendation
+    statement: Rub seed from dry stems, sieve and winnow; finish drying in paper, then store airtight,
+      cool, dry and dark.
+    applicability:
+      conditions: Fully dry seed; no guaranteed storage life.
+    evidence:
+    - source_id: ssc-basil
+      relation: supports
+      locator: Processing; Storage
 ---
 
 # Save basil seed and plan seasonal continuity
 
-Applies to [basil](../crops/basil.md) within the scope stated below.
+Applies to seed-bearing [basil](../crops/basil.md). Record the species/cultivar label and whether saving the exact selection matters. Reserve flowering stems; this is distinct from the leaf-harvest goal.
 
-## Purpose and scope
+## Steps and follow-up
 
-Collect seed from an identified basil plant where seed saving is appropriate. The earlier reference also proposes overwintering or taking cuttings for continuity. These are different propagation routes with different identity implications.[^core]
+Use the maturity and cleaning route below. Label the collection with parent identity and date, noting nearby basils and any uncertainty about crossing. Record later germination and offspring traits rather than asserting purity or a fixed viability period. For vegetative continuity see [cuttings](propagate-basil.md).
 
-## Steps
+## Limits and source handling
 
-1. Identify the plant and objective. Determine whether the selection produces usable seed and whether maintaining that selection is important. The original guide distinguishes seed saving from propagating selected plants by cuttings.[^core]
-2. For seed collection, select plants and allow flowering rather than applying the leaf-production bud-removal routine.[^core]
-3. Observe flower/seed-head development, collect mature dry material, and separate seed from debris using the method described by a suitable source.[^core]
-4. Dry and store seed under documented conditions, labeling parent identity, collection date, and any uncertainty about crossing.[^core]
-5. Record later germination and resulting plant traits rather than assuming identity or viability from the label alone.
+Isolation distance and cultivar fidelity remain unresolved for the actual selection; obtain a species- and cultivar-appropriate seed-maintenance protocol before promising true-to-type seed. Seed Savers Connect's page lists an ambiguous common-name synonym; this document uses only its collection/processing guidance, not that synonym as a taxonomic authority. Its content is CC BY-NC-ND 4.0: this page summarizes factual steps with attribution, and reproduces no text or images.
 
-## Continuity alternatives
+## Source settings
 
-The earlier guide proposes moving plants indoors or taking cuttings before cold weather. Use [propagation](propagate-basil.md) for the latter and document parent condition. The task `end_of_season_cuttings` proposes 4–6 cuttings and disposal of remaining material according to health status; neither number nor disposal choice is a demonstrated optimum.[^tasks]
+<a id="mature-seed-ssc"></a>
+Look for brown bracts and brown-black seed; harvest flowering stems and dry under cover.[^ssc-basil]
 
-## Follow-up and gaps
+<a id="clean-store-seed-ssc"></a>
+Rub seed from dry stems, sieve and winnow; finish drying in paper, then store airtight, cool, dry and dark.[^ssc-basil]
 
-The original claims about five-year seed viability, a fixed isolation distance, and predictable offspring were not established by this refactor. Verify them against the actual species/cultivar and seed-saving method. Record collected quantity, storage dates/conditions, later emergence, and unexpected traits. A repeated harvest/propagation cycle does not establish perpetual production.
+## Evidence scope
 
-## Evidence and reuse
+Gardening claims cite the supporting passages directly. The assembled sequence and recording prompts are editorial guidance; no field outcomes are asserted.
 
-This document reorganizes earlier SteelThumb material. Source attribution is retained; the underlying horticultural claims have not been rechecked. It records no real-world attempts or outcomes. Adapted from SteelThumb contributors under CC-BY-SA-4.0; see [attribution and changes](../sources/steelthumb-basil.md).[^core]
-
-[^core]: [SteelThumb basil cultivation reference](https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/domain-knowledge/core_facts.md).
-[^tasks]: [SteelThumb task instruction templates](https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/tasks/tasks.yaml).
+[^ssc-basil]: [Basil — Seed Savers Connect; Liz Worth, Julie Davies, Nellie Pryke](https://www.seedsavers.org.au/2025/09/14/basil/).

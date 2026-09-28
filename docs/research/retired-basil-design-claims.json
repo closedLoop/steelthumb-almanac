@@ -1,0 +1,174 @@
+[
+  {
+    "entity": "guides/basil-growing-conditions.md",
+    "claim": {
+      "id": "indoor-pot-assumption",
+      "kind": "descriptive",
+      "statement": "The earlier indoor design uses 6-inch pots.",
+      "evidence": [
+        {
+          "source_id": "design",
+          "relation": "supports",
+          "locator": "Objective & Assumptions"
+        }
+      ],
+      "applicability": {
+        "conditions": "Original indoor design; not a general minimum container size."
+      },
+      "quantity": {
+        "property": "pot_diameter",
+        "value": 6,
+        "unit": "in"
+      }
+    }
+  },
+  {
+    "entity": "crops/basil.md",
+    "claim": {
+      "id": "sweet-basil-identity",
+      "kind": "descriptive",
+      "statement": "The earlier cultivation reference identifies sweet basil as Ocimum basilicum.",
+      "evidence": [
+        {
+          "source_id": "core",
+          "relation": "supports",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  },
+  {
+    "entity": "crops/sweet-basil.md",
+    "claim": {
+      "id": "scope",
+      "kind": "descriptive",
+      "statement": "This profile covers sweet basil, Ocimum basilicum, as identified in the earlier cultivation reference.",
+      "evidence": [
+        {
+          "source_id": "core",
+          "relation": "supports",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  },
+  {
+    "entity": "procedures/propagate-basil.md",
+    "claim": {
+      "id": "roots-design-threshold",
+      "kind": "descriptive",
+      "statement": "The procedural design section 5 uses roots of at least 2 cm.",
+      "evidence": [
+        {
+          "source_id": "design",
+          "relation": "supports",
+          "locator": "\u00a75"
+        }
+      ],
+      "applicability": {
+        "conditions": "Original readiness assumption."
+      },
+      "quantity": {
+        "property": "root_length_threshold",
+        "value": 2,
+        "unit": "cm"
+      }
+    }
+  },
+  {
+    "entity": "procedures/propagate-basil.md",
+    "claim": {
+      "id": "roots-task-threshold",
+      "kind": "descriptive",
+      "statement": "The task uses roughly 1\u20132 inches of roots before transplanting.",
+      "evidence": [
+        {
+          "source_id": "tasks",
+          "relation": "supports",
+          "locator": "root_cutting_in_water"
+        }
+      ],
+      "applicability": {
+        "conditions": "Original readiness assumption."
+      },
+      "quantity": {
+        "property": "root_length_threshold",
+        "min": 1,
+        "max": 2,
+        "unit": "in"
+      }
+    }
+  },
+  {
+    "entity": "procedures/sow-basil-in-rockwool.md",
+    "claim": {
+      "id": "conditioning-assumption",
+      "kind": "descriptive",
+      "statement": "The original task specifies conditioning rockwool in pH 5.5\u20136.0 water for 15\u201330 minutes.",
+      "evidence": [
+        {
+          "source_id": "tasks",
+          "relation": "supports",
+          "locator": "condition_rockwool"
+        }
+      ],
+      "applicability": {
+        "conditions": "Original task assumption; soak water, unspecified rockwool product."
+      }
+    }
+  },
+  {
+    "entity": "procedures/harvest-basil.md",
+    "claim": {
+      "id": "canopy-limit-assumption",
+      "kind": "descriptive",
+      "statement": "The weekly pruning task limits removal to one third of the canopy per session.",
+      "evidence": [
+        {
+          "source_id": "tasks",
+          "relation": "supports",
+          "locator": "prune_weekly"
+        }
+      ],
+      "applicability": {
+        "conditions": "Original task; canopy measurement method unspecified."
+      }
+    }
+  },
+  {
+    "entity": "procedures/care-for-container-basil.md",
+    "claim": {
+      "id": "task-feeding-assumption",
+      "kind": "descriptive",
+      "statement": "The task catalog specifies monthly feeding at half label strength.",
+      "evidence": [
+        {
+          "source_id": "tasks",
+          "relation": "supports",
+          "locator": "half_strength_fertilization"
+        }
+      ],
+      "applicability": {
+        "conditions": "Original indoor task assumption; fertilizer unspecified."
+      }
+    }
+  },
+  {
+    "entity": "procedures/care-for-container-basil.md",
+    "claim": {
+      "id": "environment-feeding-assumption",
+      "kind": "descriptive",
+      "statement": "The environment transition table specifies full-strength feeding of 200 ml after at least fourteen days.",
+      "evidence": [
+        {
+          "source_id": "environment",
+          "relation": "supports",
+          "locator": "State transition table"
+        }
+      ],
+      "applicability": {
+        "conditions": "Original simulator transition assumption; fertilizer unspecified."
+      }
+    }
+  }
+]

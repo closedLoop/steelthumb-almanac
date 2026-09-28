@@ -1,57 +1,54 @@
 ---
 type: Procedure
 title: Transplant basil
-description: Move seedlings or rooted cuttings while recording readiness and establishment.
+description: Pot and acclimate basil using a scoped RHS container route.
 status: draft
 sources:
-- id: tasks
-  resource: https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/tasks/tasks.yaml
-  title: SteelThumb task instruction templates
-- id: core
-  resource: https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/domain-knowledge/core_facts.md
-  title: SteelThumb basil cultivation reference
-- id: curriculum
-  resource: https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/domain-knowledge/kids_textbook.md
-  title: The Amazing Basil Machine curriculum
+- id: rhs-basil
+  title: How to grow basil — RHS Advice Team
+  resource: https://www.rhs.org.uk/herbs/basil/grow-your-own
 steelthumb:
   ontology_version: '0.2'
-  review_status: unreviewed-source-adaptation
   license: CC-BY-SA-4.0
   relations:
   - predicate: applies_to
     target: /crops/basil.md
+  claims:
+  - id: rhs-container-planting
+    kind: recommendation
+    statement: For final planting, RHS specifies pots at least 20 cm wide and deep, peat-free multipurpose
+      compost, and the previous planting depth.
+    applicability:
+      conditions: UK container guidance; a fabric bag with these dimensions is an adaptation, not a fabric
+        trial.
+    evidence:
+    - source_id: rhs-basil
+      relation: supports
+      locator: Planting
 ---
 
 # Transplant basil
 
-Applies to [basil](../crops/basil.md) within the scope stated below.
-
-## Purpose and scope
-
-Move basil seedlings or rooted cuttings to a growing container or bed. The rockwool-to-pot sequence comes from the original indoor design; outdoor acclimation comes from the general cultivation reference. Keep those contexts distinct.[^tasks][^core]
-
-## Prerequisites
-
-Record the starting medium, plant/cutting identity, destination, drainage, and observed readiness. The curriculum uses two pairs of true leaves and visible roots for seedlings. Cutting readiness has conflicting thresholds in [propagation](propagate-basil.md). Neither is a validated universal transplant rule.[^curriculum]
+Applies to [basil](../crops/basil.md). Have a rooted plant, drained container and suitable compost. Identify the cultivar and allow for its eventual habit.
 
 ## Steps
 
-1. Choose an appropriate destination and record its size and medium. The indoor task assumes a 6-inch pot and 80% soil/20% perlite; the proportion basis and meaning of “soil” were unspecified.[^tasks]
-2. Make space for the root mass. The rockwool task keeps the whole cube intact, seats it at cube height, and backfills gently.[^tasks]
-3. Water as required by the chosen medium and drain excess. Record the amount if measured.[^tasks]
-4. For outdoor moves, gradually acclimate plants to the new conditions; the general guide describes approximately a week of hardening off, without a universal schedule.[^core]
-5. Check establishment and new growth. The indoor task schedules an initial check after 10–14 days and defers feeding; feeding decisions remain subject to the [unresolved schedules](care-for-container-basil.md).[^tasks]
+1. For an outdoor move, harden plants off first and choose a warm, sunny, sheltered position following RHS.[^rhs-basil]
+2. Use the container setting below, make room for the root mass and replant at its previous depth.
+3. Follow [container care](care-for-container-basil.md); record the move, medium and destination dimensions.
+4. Observe wilting and subsequent new growth. If wilting persists, inspect moisture, drainage and roots and use [investigation](investigate-basil-symptoms.md).
 
-## Follow-up and disputed details
+## Limits
 
-Record leaf/root condition before moving, signs of wilting afterward, recovery, new growth, and losses. A temporary humidity cover for 24–48 hours is an unreviewed task suggestion, not a routine requirement for every transplant.[^tasks] Store the actual duration and conditions if it was used.
+Using this pot guidance in a drained grow bag is an adaptation. Density for the actual selection and rockwool transfer need their own method.
 
-This consolidates `transplant_cube_to_pot`, `early_establishment_check`, `pot_up_rooted_cutting`, and `humidity_tent_for_transplant`. The general guide's different container-size advice is retained in [growing conditions](../guides/basil-growing-conditions.md).[^tasks]
+## Source settings
 
-## Evidence and reuse
+<a id="rhs-container-planting"></a>
+For final planting, RHS specifies pots at least 20 cm wide and deep, peat-free multipurpose compost, and the previous planting depth.[^rhs-basil]
 
-This document reorganizes earlier SteelThumb material. Source attribution is retained; the underlying horticultural claims have not been rechecked. It records no real-world attempts or outcomes. Adapted from SteelThumb contributors under CC-BY-SA-4.0; see [attribution and changes](../sources/steelthumb-basil.md).[^tasks]
+## Evidence scope
 
-[^tasks]: [SteelThumb task instruction templates](https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/tasks/tasks.yaml).
-[^core]: [SteelThumb basil cultivation reference](https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/domain-knowledge/core_facts.md).
-[^curriculum]: [The Amazing Basil Machine curriculum](https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/domain-knowledge/kids_textbook.md).
+Gardening claims cite the supporting passages directly. The assembled sequence and recording prompts are editorial guidance; no field outcomes are asserted.
+
+[^rhs-basil]: [How to grow basil — RHS Advice Team](https://www.rhs.org.uk/herbs/basil/grow-your-own).

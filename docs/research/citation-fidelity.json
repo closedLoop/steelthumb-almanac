@@ -1,0 +1,2982 @@
+{
+  "format": "almanac-working-tree-citation-review-v1",
+  "reviewer": "Codex",
+  "date": "2026-09-27",
+  "scope": "Embedded claims; prose and cards require separate review. No field outcomes or formal OKF verification.",
+  "documents": [
+    {
+      "entity": "crops/basil.md",
+      "sha256": "3fec31137713180c12c942ebae21fc8f1da8974f3eb0ae659eb9c9d2bd1a6b4e"
+    },
+    {
+      "entity": "crops/cherry-tomato.md",
+      "sha256": "3215df48524dd9abdf19af49fd6e251c76acb901c6e8906ca147c90af98bb208"
+    },
+    {
+      "entity": "crops/dwarf-lime.md",
+      "sha256": "809fb51593970d6dfd490411a309e9a5f510e157d5438f1c39d2272907a93b41"
+    },
+    {
+      "entity": "crops/dwarf-meyer-lemon.md",
+      "sha256": "3d408c775350a8ed8bbaccc624220cc0e96e9ce7685f8660a74fe2e200bf0875"
+    },
+    {
+      "entity": "crops/jalapeno-pepper.md",
+      "sha256": "8f0a4c7c35e1b6214a3c7e209e98bfec6291e12da9959d68c1318c13b5aba2a2"
+    },
+    {
+      "entity": "crops/jerusalem-artichoke.md",
+      "sha256": "7a47e6be909d4c9e876cc26e4f1f9a30615b353e170f1dcd5cf329bb444093fa"
+    },
+    {
+      "entity": "crops/mint.md",
+      "sha256": "326929d92afa8bbd896bd2a7f7191b477a9af3bdd8501efc8cdd588cd1230061"
+    },
+    {
+      "entity": "crops/nasturtium.md",
+      "sha256": "335d738f219303abc6b8cba4620d035d89837cc9cb200084807e53bf10bf5a14"
+    },
+    {
+      "entity": "crops/potato.md",
+      "sha256": "54d248cbc6c6f79c39a5e53f705284023e7a18c2260ac21b3026be128d84f0fa"
+    },
+    {
+      "entity": "crops/russet-potato.md",
+      "sha256": "190527f49fc48201141b982fa578f4bee9825957e1b085007d410fb8bffc3918"
+    },
+    {
+      "entity": "crops/sugar-snap-pea.md",
+      "sha256": "9e0b0179c849aafde5ed32aa20cc191aba71593ac8dfa860151fa7ebae0da16c"
+    },
+    {
+      "entity": "crops/sunflower.md",
+      "sha256": "164002e633a9f0690ef7f60eb77434ec5da275d7db9496433b61c2af0e795ddc"
+    },
+    {
+      "entity": "crops/sweet-basil.md",
+      "sha256": "649ad936bf435689e0e82818d8cdee80ebf91c25ae771471b98432666d9c06b3"
+    },
+    {
+      "entity": "crops/sweet-potato.md",
+      "sha256": "646bff07f3daecf49620346aece109c7ae7ce010640975080ac52ae528c09475"
+    },
+    {
+      "entity": "cultivars/yukon-gold-potato.md",
+      "sha256": "c8078327a61fbaa3326ac8fc5b4fda3cae9505d6eb6fce2914bc5b81b5d8424c"
+    },
+    {
+      "entity": "guides/basil-growing-conditions.md",
+      "sha256": "b235dcbaa09374ea41bba925f1270b6457bb56f6c30a5ea0bf596860bb100212"
+    },
+    {
+      "entity": "guides/basil-learning-guide.md",
+      "sha256": "f055197315ca13515e0c734986c52a0887f35055d4ebe48c5a1e6e690a36f310"
+    },
+    {
+      "entity": "guides/basil-storage.md",
+      "sha256": "c8357bf676f7b41aa446c38c8fdc1475e9f94d3456eb9130202183f62273ae9e"
+    },
+    {
+      "entity": "guides/basil-varieties.md",
+      "sha256": "485398386f931c946e873d98d4982596a69e35c5a5741f309546063bafaebe12"
+    },
+    {
+      "entity": "index.md",
+      "sha256": "b2f1b99f45035e771ed929cd319024adc33f00e37e3863f451198b6e1f5ee116"
+    },
+    {
+      "entity": "procedures/care-for-cherry-tomato.md",
+      "sha256": "f855b2866d77f68f2c66a8f626bba3aed0cfce07f460004ef8441c4aac05629f"
+    },
+    {
+      "entity": "procedures/care-for-container-basil.md",
+      "sha256": "b97c73be6dc5a42fead9fb5acdba48802cd97304f80b0025f196e3810a08584e"
+    },
+    {
+      "entity": "procedures/care-for-dwarf-citrus.md",
+      "sha256": "d950be2f3002b61e387950166a89f68ede95536d0b0d669cc29e0f17e8f0d07c"
+    },
+    {
+      "entity": "procedures/care-for-jalapeno-pepper.md",
+      "sha256": "ab62ee1b39d9c63b3278d1df010e0c231929285b95b0eb9b87c48ff64649455c"
+    },
+    {
+      "entity": "procedures/care-for-jerusalem-artichoke.md",
+      "sha256": "83c5f81b4c7374903b6c60b764c44e095a3ee4dae0202bafa5c091990f7af1ba"
+    },
+    {
+      "entity": "procedures/care-for-mint.md",
+      "sha256": "66f7ee8f0e494ec3c22a183dfc03ac7f9ddec4483c0c53fb52ea1d31583fd941"
+    },
+    {
+      "entity": "procedures/care-for-nasturtium.md",
+      "sha256": "9b4417b32a0c46f340fcbc9f2a3dbffaeeb0e10caf63ba3be20cac154f0beb29"
+    },
+    {
+      "entity": "procedures/care-for-potato.md",
+      "sha256": "972f7b30a81a4845548e65e7af42a4c34f3d64b0565843aea97589cc1701e613"
+    },
+    {
+      "entity": "procedures/care-for-sugar-snap-pea.md",
+      "sha256": "dd1ffd86f5607b0b98b5b385370d8b6fba4237ea08cbb1d419a705cae7ee924c"
+    },
+    {
+      "entity": "procedures/care-for-sunflower.md",
+      "sha256": "3967876566c62fa4755396d04bb3703b3eed3db5a3510bd6426f3804e5a85828"
+    },
+    {
+      "entity": "procedures/care-for-sweet-potato.md",
+      "sha256": "304fc6fffb04ef057ca7b73ca668d1021a4e1b83d6e2bf6d1a3c2d5a95f84106"
+    },
+    {
+      "entity": "procedures/harvest-basil.md",
+      "sha256": "41c86c2fe66e5fbd10684966c8ae8baa2f0cbb8deb1294e0eabe0583f816fc25"
+    },
+    {
+      "entity": "procedures/harvest-cherry-tomato.md",
+      "sha256": "8dfff597819e3653a964a72350cc93ef15f6f0c5f874e794ce3f1e99eb1d814c"
+    },
+    {
+      "entity": "procedures/harvest-dwarf-citrus.md",
+      "sha256": "619f697550cac1f9d31782720035dd0ec5e375b398676cff0ee3092f0d216f41"
+    },
+    {
+      "entity": "procedures/harvest-jalapeno-pepper.md",
+      "sha256": "c2177d9c898b413c9a7b9511f5032091574380837eaaaac3a692cee177a2b74e"
+    },
+    {
+      "entity": "procedures/harvest-jerusalem-artichoke.md",
+      "sha256": "4041113b141fbf2932c0063f8cfba196680863bdc395f0fa1d5d03924d023f14"
+    },
+    {
+      "entity": "procedures/harvest-mint.md",
+      "sha256": "ce3fd4b5c9c94338e8bc5ddd95222788ac746581cc66bcd12e38a4e88db775bd"
+    },
+    {
+      "entity": "procedures/harvest-nasturtium.md",
+      "sha256": "60f200ba5ffb7cb21b2106a4a4dfc0f7fbb64ebb303f37609ed5f6c0461d37ae"
+    },
+    {
+      "entity": "procedures/harvest-potato.md",
+      "sha256": "369869a0c1a0a57becf466982e068c2bf147c24fa948afd23bfa0e00ceea84ea"
+    },
+    {
+      "entity": "procedures/harvest-sugar-snap-pea.md",
+      "sha256": "2e6d772053ff081c47e80bf517a717c1c2bd7a0a4033830f6399079dd21846af"
+    },
+    {
+      "entity": "procedures/harvest-sunflower.md",
+      "sha256": "f49ad105f9c2fb60dcb6818a5546b58c64674b21ac291fac72f79de4d226d9cf"
+    },
+    {
+      "entity": "procedures/harvest-sweet-potato.md",
+      "sha256": "1c7a8ee11e1b5bf907ebc5a178d84f710fe727c7b1252b99a2e3c027b572a4db"
+    },
+    {
+      "entity": "procedures/investigate-basil-symptoms.md",
+      "sha256": "246d42491ad7d92ad8f32f2e6283550d40a374f1d22cca15cb3aaeb89301ba70"
+    },
+    {
+      "entity": "procedures/investigate-jerusalem-artichoke.md",
+      "sha256": "4b0f1bfc0f5ce9c7afcd2d94df183be21438cc1e289b447a652711c7e9225add"
+    },
+    {
+      "entity": "procedures/plant-cherry-tomato.md",
+      "sha256": "18018f0eca96cb3ec3975a31c39781b8394f65907d74ce842e40dfbf9021182a"
+    },
+    {
+      "entity": "procedures/plant-dwarf-citrus.md",
+      "sha256": "8067f0c8898c4b443c365423e49f43352daa0783d818a122819b857763efd462"
+    },
+    {
+      "entity": "procedures/plant-jalapeno-pepper.md",
+      "sha256": "41ef1ed83dec9cee66b76615a4724d816ebe6549d40e9e118e6de3b31dec2b82"
+    },
+    {
+      "entity": "procedures/plant-jerusalem-artichoke.md",
+      "sha256": "535360e1753cf27bb9e43050f5a8ad759631d4d944642998753748e6fe7ade81"
+    },
+    {
+      "entity": "procedures/plant-mint.md",
+      "sha256": "724ccd070346e1c449cbf6ce685cdc009ff86363e1666f419247b9397c2e7861"
+    },
+    {
+      "entity": "procedures/plant-nasturtium.md",
+      "sha256": "4d545aefc049b4b117b58396cd648f0ec1cca91258213937f5d4dfd058e950ef"
+    },
+    {
+      "entity": "procedures/plant-potato.md",
+      "sha256": "509cb4b5d4f9aa16e60640c8474d3e4245c82772ac1095a29f3bec17725f9ead"
+    },
+    {
+      "entity": "procedures/plant-sugar-snap-pea.md",
+      "sha256": "5a4609da0fbd1634b6f43f0f367c63975807de62f9916977e176dd78d4e8e287"
+    },
+    {
+      "entity": "procedures/plant-sunflower.md",
+      "sha256": "60918c1d8fec9cf03ff09ffc687d5f55295803af329bf0b76b14679b91c7bddc"
+    },
+    {
+      "entity": "procedures/plant-sweet-potato.md",
+      "sha256": "ab148cc3939c9a1fad21bb6cfe198c4419978bea105ad531ffc1740af22ebef6"
+    },
+    {
+      "entity": "procedures/propagate-basil.md",
+      "sha256": "5806a0b8ad08ed33dd69db6c6dae9e7544a553af2ea71c6e965bf75b5c2c007f"
+    },
+    {
+      "entity": "procedures/review-garden-observations.md",
+      "sha256": "71c121263c68c429b6a5d205ba1af10bf375b51e7d6ad7479fa706779432db3d"
+    },
+    {
+      "entity": "procedures/save-basil-seed.md",
+      "sha256": "f1e76e2283073c15a2b7c5f3f9510ebd3b86922f7081b68679d07d995abe10ce"
+    },
+    {
+      "entity": "procedures/sow-basil-in-rockwool.md",
+      "sha256": "4a3b73555eec21fbe4bf7531a12a3890541357e93b32c0e0b38349852bbf37d6"
+    },
+    {
+      "entity": "procedures/sow-basil.md",
+      "sha256": "4dbc656b48f5d2e6babf38ca65a09b0273105ab022929310459c607bc41c8881"
+    },
+    {
+      "entity": "procedures/transplant-basil.md",
+      "sha256": "8a92f1eedae9891beecc13829b951261dfa48e02f54ef42f952d706a4a5161e5"
+    },
+    {
+      "entity": "sources/basil-research.md",
+      "sha256": "8e80457ad45bd0576f9ff4f1f37a946b018119e0cf709942348f3bb97744e07d"
+    },
+    {
+      "entity": "sources/garden-crop-research.md",
+      "sha256": "803edb3f0b3c964776be4ebd8d58f450e041c5ce88c627de8eddec2fdcab1571"
+    },
+    {
+      "entity": "sources/jerusalem-artichoke-research.md",
+      "sha256": "067ec1fc0c4cc13240e1abf3b6f6ebee6280cb50c7fb0047db2ab1742058fe61"
+    },
+    {
+      "entity": "systems/indoor-basil-containers.md",
+      "sha256": "534a5a372eee744a2d3b9c4bb9db18b9c93be7733e3635c4994c702504d420d3"
+    },
+    {
+      "entity": "systems/jerusalem-artichoke-grow-bags.md",
+      "sha256": "275e3ce864c59a4a42d9b436682c8825307eb09432bfd34aae49633c217db18d"
+    },
+    {
+      "entity": "systems/outdoor-grow-bags.md",
+      "sha256": "9bea9ea2351187ebe1a6bc6aaad3ddcd4111e7f192bc0416da3cc356e6c2a5c8"
+    }
+  ],
+  "claims": [
+    {
+      "entity": "crops/basil.md",
+      "claim_id": "botanical-scope",
+      "claim_sha256": "24f61450854ca1009d5a54ecb0f1f8aa9ed8a65e3c27271d051c3a2939bde793",
+      "verdict": "supports-with-scope",
+      "rationale": "Clemson introduction explicitly identifies the species; no cultivar inference.",
+      "passages": [
+        {
+          "source_id": "clemson-basil",
+          "url": "https://hgic.clemson.edu/factsheet/basil/",
+          "locator": "Introduction",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "crops/cherry-tomato.md",
+      "claim_id": "habit",
+      "claim_sha256": "848a06de73e743f7b7e99be2ff269e91df6f740feaf050089e2e0bce1620aac7",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-tomato",
+          "url": "https://extension.umd.edu/resource/growing-tomatoes-home-garden",
+          "locator": "Growing and care, cherry tomato bullet",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "679f4fc6a5ec561a384fa09303f8f0c018ad95e7951973425d3fb1f856cff99d"
+        }
+      ]
+    },
+    {
+      "entity": "crops/dwarf-lime.md",
+      "claim_id": "persian-identity",
+      "claim_sha256": "567219e3379ec5c0516751587af536c3d84402b934bfe57f3ad5b8c6872a7b2e",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uf-persian",
+          "url": "https://ask.ifas.ufl.edu/publication/CH093",
+          "locator": "Scientific Name; Common Names",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "d58706afdd66f2ac058f9cc03d836b998130710e27ce97363472b97a6462885d"
+        }
+      ]
+    },
+    {
+      "entity": "crops/dwarf-lime.md",
+      "claim_id": "key-identity",
+      "claim_sha256": "f0a5014dd6284ee32fee6b74229e0ade32903073f446554f93ab04b104d6231e",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uf-key",
+          "url": "https://ask.ifas.ufl.edu/publication/CH092",
+          "locator": "Scientific name; Common names",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "0c4409abb613bd40dbf997dd3ae50ad2a8b17b09994828c401f53de69ca7c233"
+        }
+      ]
+    },
+    {
+      "entity": "crops/dwarf-meyer-lemon.md",
+      "claim_id": "container-habit",
+      "claim_sha256": "e0e03954d75779245c572f7a1e22e9759938c35152e82d24ca8cf2117022a576",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uc-meyer",
+          "url": "https://ucanr.edu/site/mg-sonoma/meyer-lemon",
+          "locator": "Meyer Lemon Features",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "c7c60ac0a1848ac05dbceb034641d9fe44981c8690ab14b5f381d5f0004b5881"
+        }
+      ]
+    },
+    {
+      "entity": "crops/jalapeno-pepper.md",
+      "claim_id": "identity",
+      "claim_sha256": "f2fcdc2197a9c96fc15e3e275e0230aec7eb919887e1ceaab2ca1c49d458a7df",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uconn-pepper",
+          "url": "https://homegarden.cahnr.uconn.edu/factsheets/peppers/",
+          "locator": "Opening species description",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "89eb6d0e430252d9bac8fbed23b2349505661e865c662ef309f042e60ff4fc1d"
+        }
+      ]
+    },
+    {
+      "entity": "crops/jerusalem-artichoke.md",
+      "claim_id": "accepted-name",
+      "claim_sha256": "b5c544b067571bf9aeab9c0af09a83d92aa48026c3749482df2ccf8015dace9e",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "kew",
+          "url": "https://powo.science.kew.org/taxon/329252-2",
+          "locator": "Taxon heading and accepted-name statement",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "crops/jerusalem-artichoke.md",
+      "claim_id": "edible-tuber-perennial",
+      "claim_sha256": "3b62705f14734ab0d9c360a67399ff5eaf0efa6175535b2c5e16f6d903f84a24",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "mu",
+          "url": "https://extension.missouri.edu/news/north-americas-nearly-forgotten-native-vegetable",
+          "locator": "Opening paragraphs identifying the crop and edible portion",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "crops/jerusalem-artichoke.md",
+      "claim_id": "persistent-spread",
+      "claim_sha256": "8cf205dd97eb8dfaae764b98803719b8970865fa65c839bf4a7795cef2c8889c",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "mu",
+          "url": "https://extension.missouri.edu/news/north-americas-nearly-forgotten-native-vegetable",
+          "locator": "Paragraphs on tuberous growth and naturalizing",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "crops/mint.md",
+      "claim_id": "clonal-identity",
+      "claim_sha256": "865c0e246a32ee929340df7bea3f54984824a1052c86f862fb946af2d6ca1b6d",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usu-mint",
+          "url": "https://extension.usu.edu/yardandgarden/research/mint-in-the-garden",
+          "locator": "Plants",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "crops/nasturtium.md",
+      "claim_id": "identity",
+      "claim_sha256": "b1245d0f3bd35baa122ca5eae6a10623fc24eddefa914c9358e70b553940b563",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uw-nasturtium",
+          "url": "https://hort.extension.wisc.edu/articles/nasturtium-tropaeolum-majus/",
+          "locator": "Overview",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "71bcf8e07a193fac4e33c35b37e6813a359ff9090f6c4433faa81c3b313e8712"
+        }
+      ]
+    },
+    {
+      "entity": "crops/potato.md",
+      "claim_id": "identity",
+      "claim_sha256": "e866a1b503a3194ac59a57ca0cea9cf536cdb7f7100b2533427ac081c9b50a17",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "isu-potato",
+          "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-potatoes-home-garden",
+          "locator": "Introduction",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "6f27c4f4bedaac865faf5ba885f2ffbcb34017324837447d99d195296c32c4f5"
+        }
+      ]
+    },
+    {
+      "entity": "crops/russet-potato.md",
+      "claim_id": "category",
+      "claim_sha256": "c404fac02872469131a2f456157fb1823ebb1e5d4b7dc606becbdb1b54a12085",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "isu-potato",
+          "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-potatoes-home-garden",
+          "locator": "Recommended Cultivars",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "6f27c4f4bedaac865faf5ba885f2ffbcb34017324837447d99d195296c32c4f5"
+        }
+      ]
+    },
+    {
+      "entity": "crops/sugar-snap-pea.md",
+      "claim_id": "identity",
+      "claim_sha256": "fbd9d34cb2d7a53d21790dc3977bf33fae00b65627889e3cc8ceb2f77151a039",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-peas",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peas",
+          "locator": "Shelling, snow and sugar snap peas",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "36c4e419e5a458c814bf383c86d451189ce31d951c19488d7a2c83948c1e99e1"
+        }
+      ]
+    },
+    {
+      "entity": "crops/sunflower.md",
+      "claim_id": "identity",
+      "claim_sha256": "41f6c69b7cdb1bb9f3b24053d26b5b756cbb3432710000c371af980a44f1b5aa",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-sunflower",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/sunflowers",
+          "locator": "Introduction",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "602805bcd7669342409bc2ac25765b29c2b3a14fbd195d54dc33d4982e760d51"
+        }
+      ]
+    },
+    {
+      "entity": "crops/sweet-basil.md",
+      "claim_id": "botanical-scope",
+      "claim_sha256": "24f61450854ca1009d5a54ecb0f1f8aa9ed8a65e3c27271d051c3a2939bde793",
+      "verdict": "supports-with-scope",
+      "rationale": "Clemson introduction explicitly identifies the species; no cultivar inference.",
+      "passages": [
+        {
+          "source_id": "clemson-basil",
+          "url": "https://hgic.clemson.edu/factsheet/basil/",
+          "locator": "Introduction",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "crops/sweet-potato.md",
+      "claim_id": "identity",
+      "claim_sha256": "35f9fc829c300c17124ba979f78ab44130ab6bbf8c75cfd7dc14435dfd4789fe",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-sweet",
+          "url": "https://extension.umd.edu/resource/growing-sweet-potatoes-home-garden",
+          "locator": "Introduction; Growing and care",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "f33f2c220ac5a47692f72aab631dcb64e5bcba822800e92d9c42f9ada637fa09"
+        }
+      ]
+    },
+    {
+      "entity": "cultivars/yukon-gold-potato.md",
+      "claim_id": "early-yellow",
+      "claim_sha256": "05e78bc86ee30f91a218876f1a8eb7aa5fc46f8acebaabe63239051f98e4d981",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "isu-potato",
+          "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-potatoes-home-garden",
+          "locator": "Recommended Cultivars",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "6f27c4f4bedaac865faf5ba885f2ffbcb34017324837447d99d195296c32c4f5"
+        }
+      ]
+    },
+    {
+      "entity": "guides/basil-growing-conditions.md",
+      "claim_id": "sun-site-umn",
+      "claim_sha256": "245606d30d92bcbb5c3339581b1ed8b4527ce53f907b448f259301f27be633f5",
+      "verdict": "supports-with-scope",
+      "rationale": "General basil gardening; sun duration is not an indoor lamp specification.",
+      "passages": [
+        {
+          "source_id": "umn-basil",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/growing-basil",
+          "locator": "Introduction",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "guides/basil-storage.md",
+      "claim_id": "dehydrator-herbs-nchfp",
+      "claim_sha256": "83e65a7424d785732d7ec10fe4620f64a795f061ed6016136c88af18e77eb528",
+      "verdict": "supports-with-scope",
+      "rationale": "NCHFP herb method; follow the dehydrator instructions and inspect periodically.",
+      "passages": [
+        {
+          "source_id": "nchfp-herbs",
+          "url": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+          "locator": "Herbs \u2192 Dehydrator drying",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "guides/basil-storage.md",
+      "claim_id": "dry-endpoint-nchfp",
+      "claim_sha256": "fbbbe6360c01e06567a69c618d550da3df1594da79930d337397c58d608c86e4",
+      "verdict": "supports-with-scope",
+      "rationale": "Dry herbs; time alone does not establish the endpoint.",
+      "passages": [
+        {
+          "source_id": "nchfp-herbs",
+          "url": "https://nchfp.uga.edu/how/dry/recipes/herbs/",
+          "locator": "Herbs \u2192 dryness and storage paragraphs",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-cherry-tomato.md",
+      "claim_id": "moisture",
+      "claim_sha256": "ccc9cbf85063813974431f445a87d6096051c77c8d4c44d9ed4ab6096ed8c519",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-tomato",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+          "locator": "Watering",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "8d9da975877d3e6a086d7bc6b290566d265b3cea764666c4d2347a222f1821eb"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-cherry-tomato.md",
+      "claim_id": "feeding",
+      "claim_sha256": "40ca5ced7a4c7e85d984a8b9b468e1cfff3d86f658287a8b8d08e6363be94edd",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs-tomato",
+          "url": "https://www.rhs.org.uk/vegetables/tomatoes/grow-your-own",
+          "locator": "Feeding",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-cherry-tomato.md",
+      "claim_id": "ber",
+      "claim_sha256": "4bffaa7ace7632ad055f154960caf5eddb1c9e087d48475e1c77d7a8e2078a4a",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-ber",
+          "url": "https://extension.umd.edu/resource/blossom-end-rot-vegetables",
+          "locator": "Key points",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "5f4d0d2c5e114c1081d73f6f20aa8c72df6480edb7c9794b14d315a88e9d97fe"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-container-basil.md",
+      "claim_id": "container-feeding-umn",
+      "claim_sha256": "6681d70b8091c09a145c88ee5fedca477d54c3334ae2b0b7a6089f27aee60cbe",
+      "verdict": "supports-with-scope",
+      "rationale": "Minnesota guidance; identify product and medium before applying. Not a fixed nutrient concentration.",
+      "passages": [
+        {
+          "source_id": "umn-basil",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/growing-basil",
+          "locator": "Soil pH and fertility \u2192 Soil testing and fertilizer",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-container-basil.md",
+      "claim_id": "moisture-rhs",
+      "claim_sha256": "b019f2929f6e1cda487c9f307d3b8bcc102a829be4155d0efd43638d0b3dc5a0",
+      "verdict": "supports-with-scope",
+      "rationale": "Basil containers; frequency depends on actual conditions.",
+      "passages": [
+        {
+          "source_id": "rhs-basil",
+          "url": "https://www.rhs.org.uk/herbs/basil/grow-your-own",
+          "locator": "Plant care \u2192 Watering",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-dwarf-citrus.md",
+      "claim_id": "seasonal-move",
+      "claim_sha256": "d32137a81bf620e98b0bb459bae3056b29119b6156ca6dd15f2d91e127ee86cf",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-citrus",
+          "url": "https://extension.umd.edu/resource/growing-dwarf-citrus",
+          "locator": "Light",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "0e12af355264a41de42098ff0e70a75729d86b83a207a75462950378869ea68f"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-dwarf-citrus.md",
+      "claim_id": "water",
+      "claim_sha256": "3d9d9c1aae1ff3194b8efae49a283355e7eb3a03a9d321257046c990402726ff",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-citrus",
+          "url": "https://extension.umd.edu/resource/growing-dwarf-citrus",
+          "locator": "Water",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "0e12af355264a41de42098ff0e70a75729d86b83a207a75462950378869ea68f"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-dwarf-citrus.md",
+      "claim_id": "feed",
+      "claim_sha256": "ebaa2c3844ff6b3e8194620c207ac44d84e939d86f0061b9818e7c6aa7638598",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-citrus",
+          "url": "https://extension.umd.edu/resource/growing-dwarf-citrus",
+          "locator": "Soil & fertilizer",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "0e12af355264a41de42098ff0e70a75729d86b83a207a75462950378869ea68f"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-dwarf-citrus.md",
+      "claim_id": "pests",
+      "claim_sha256": "376ce092291cadc03339d2906e6652cfb8e6295d582c11b272bcb7d26328e559",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-citrus",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-citrus-indoors",
+          "locator": "Watch for pests",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "b12080f1dd37f035c19ac3fb8217deb023b09900f6b88545e90d92d116eebf5d"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-dwarf-citrus.md",
+      "claim_id": "pollination",
+      "claim_sha256": "0e319cd695ac7ba0f882b9fc4f97dadc1634e469b66e701a19cdfd8909598047",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-citrus",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-citrus-indoors",
+          "locator": "Pollinate for fruit",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "b12080f1dd37f035c19ac3fb8217deb023b09900f6b88545e90d92d116eebf5d"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-dwarf-citrus.md",
+      "claim_id": "leaf-drop",
+      "claim_sha256": "354615d21edd5dd9aeb7dde7f1652499753e7fc3e1dbae1fe691f78bff173dbf",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-citrus",
+          "url": "https://extension.umd.edu/resource/growing-dwarf-citrus",
+          "locator": "Common problems > Leaves drop off",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "0e12af355264a41de42098ff0e70a75729d86b83a207a75462950378869ea68f"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-jalapeno-pepper.md",
+      "claim_id": "water",
+      "claim_sha256": "500928e61b3f68c4222cdbc222f980a609aa487677190a3109e7c5410f06a033",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-pepper",
+          "url": "https://extension.umd.edu/resource/growing-peppers-home-garden",
+          "locator": "Growing and care > Watering",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "4f0ffae9b3d6cb9760e5f4a3302638f2533ceb52c6b3860fd723a0cfea8159ab"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-jalapeno-pepper.md",
+      "claim_id": "support",
+      "claim_sha256": "3ec96463e93b29ee11641ee7a0ea967e959bfd941652b8e0e73fa7edf56f0eea",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-pepper",
+          "url": "https://extension.umd.edu/resource/growing-peppers-home-garden",
+          "locator": "Growing and care",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "4f0ffae9b3d6cb9760e5f4a3302638f2533ceb52c6b3860fd723a0cfea8159ab"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-jalapeno-pepper.md",
+      "claim_id": "ber-candidate",
+      "claim_sha256": "ad0ea726208116317043a07950b5eff47372a835f52f34dfcf8aa15121e5cb5e",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-ber",
+          "url": "https://extension.umd.edu/resource/blossom-end-rot-vegetables",
+          "locator": "Key points",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "5f4d0d2c5e114c1081d73f6f20aa8c72df6480edb7c9794b14d315a88e9d97fe"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-jerusalem-artichoke.md",
+      "claim_id": "container-watering",
+      "claim_sha256": "a87d376957be4d1a622031cb8bc436c4d29904167f137c008edc13c023c00c68",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "water",
+          "url": "https://extension.illinois.edu/blogs/flowers-fruits-and-frass/2020-06-22-6-tips-watering-container-gardens",
+          "locator": "Tip 4, When to water?",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "ef5b74fa6dd1068f0b5d92790b38ae09d0392e6f5c2818b880938a3689785176"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-jerusalem-artichoke.md",
+      "claim_id": "support",
+      "claim_sha256": "335b99456356ed48a5b11a1cdf1b810db40fa0e3d6e2b4e37e27fa312868ef2f",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs",
+          "url": "https://www.rhs.org.uk/vegetables/jerusalem-artichokes/grow-your-own",
+          "locator": "Plant Care; Watering; Supporting",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-jerusalem-artichoke.md",
+      "claim_id": "container-feeding",
+      "claim_sha256": "6688284bf9c78d566416e740e0da2a1eeef6d756dd002da010fba38ff448ee33",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "illinois",
+          "url": "https://extension.illinois.edu/blogs/good-growing/2022-04-08-helpful-tips-creating-successful-container-garden",
+          "locator": "Fertilizing",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "1131b436134b6e04186dfd12b8420138621d201c4acad27ac899c18f61b919d4"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-mint.md",
+      "claim_id": "moisture",
+      "claim_sha256": "d7a5d289dfb16492ef7a587e2e511a6369dfb6bb4327cf71629c0d002b16534e",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs-mint",
+          "url": "https://www.rhs.org.uk/herbs/mint/grow-your-own",
+          "locator": "Watering",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-mint.md",
+      "claim_id": "renewal",
+      "claim_sha256": "48bbde8dabba90a91c766d283084825875a832852b178a9cbce23c3b2cc80546",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs-mint",
+          "url": "https://www.rhs.org.uk/herbs/mint/grow-your-own",
+          "locator": "Planting",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-mint.md",
+      "claim_id": "rust-candidate",
+      "claim_sha256": "3918443af45187104d521295dd72b8f082eefa42330d872a74a63fbf3d273b65",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usu-mint",
+          "url": "https://extension.usu.edu/yardandgarden/research/mint-in-the-garden",
+          "locator": "Pests and Disease > Mint Rust",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-nasturtium.md",
+      "claim_id": "watering",
+      "claim_sha256": "237a9c71a1e2af3755345737f8684438155eb6bb7c2a85b3a90fde378044cf32",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs-nasturtium",
+          "url": "https://www.rhs.org.uk/plants/nasturtiums/annual-nasturtiums/how-to-grow-annual-nasturtiums",
+          "locator": "Ongoing care > Watering",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-nasturtium.md",
+      "claim_id": "ground-feed",
+      "claim_sha256": "e85d6db5d67498db43a156f37758f32440e3e8cf44df9bb8c23255e09ac0e0b7",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uw-nasturtium",
+          "url": "https://hort.extension.wisc.edu/articles/nasturtium-tropaeolum-majus/",
+          "locator": "Propagating",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "71bcf8e07a193fac4e33c35b37e6813a359ff9090f6c4433faa81c3b313e8712"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-nasturtium.md",
+      "claim_id": "container-feed",
+      "claim_sha256": "bb5676c2450027f364753c0950b2b49259c548a56e923ebb2cebfefd86d7f0fc",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs-nasturtium",
+          "url": "https://www.rhs.org.uk/plants/nasturtiums/annual-nasturtiums/how-to-grow-annual-nasturtiums",
+          "locator": "Ongoing care > Feeding",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-nasturtium.md",
+      "claim_id": "caterpillars",
+      "claim_sha256": "03f3d9f7ac5067965fd5e15995c6559dae22abe0806efcf2649810c2269c85d2",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs-nasturtium",
+          "url": "https://www.rhs.org.uk/plants/nasturtiums/annual-nasturtiums/how-to-grow-annual-nasturtiums",
+          "locator": "Problems",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-potato.md",
+      "claim_id": "cover-tubers",
+      "claim_sha256": "c801732c443ec750a3d7dcd17c68f1ea9a04dca0f9a3383b94118b878a7d2589",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-potato",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-potatoes",
+          "locator": "Hilling",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "8c92fb912aee13a94cbcd90a8455e6e7d7ac3a68a51c138b8e72a5fd10785152"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-potato.md",
+      "claim_id": "bag-hilling",
+      "claim_sha256": "a1b7b8e087c06bc9a9b8f9dc72e3dc71bd759fe0f5824a3fb35502d495d16a2e",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "spudnik",
+          "url": "https://marylandgrows.umd.edu/2020/03/20/potatoes-grow-in-bags-at-project-spudnik/",
+          "locator": "Potato growing tips, item 5",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "e3b479d909c577f9be050f6469b942ef8cb3764043c7ae9757a94e53e0f449e5"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-potato.md",
+      "claim_id": "bag-fill-trigger",
+      "claim_sha256": "078e2cbcfd9105033c0fccc0ff7273ec4213a5767d029e783c105fcf629a1c80",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "spudnik",
+          "url": "https://marylandgrows.umd.edu/2020/03/20/potatoes-grow-in-bags-at-project-spudnik/",
+          "locator": "Potato growing tips, item 5",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "e3b479d909c577f9be050f6469b942ef8cb3764043c7ae9757a94e53e0f449e5"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-potato.md",
+      "claim_id": "moisture",
+      "claim_sha256": "bd78c7e359519d431527950ad8e991885e10af0233fc8479aa1d0b5f838e12ff",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-potato",
+          "url": "https://www.extension.umd.edu/resource/growing-potatoes-home-garden",
+          "locator": "Growing and care > Watering",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "9b014eca9f2427d7f1757536db9559523aaaea1d8b6d3a63d6fae8d550336a8f"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-potato.md",
+      "claim_id": "beetles",
+      "claim_sha256": "ff96aaafdf7d9175c936717769163c0e6121e49d681a6f67fe7882fc7b59c604",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-potato",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-potatoes",
+          "locator": "Insects",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "8c92fb912aee13a94cbcd90a8455e6e7d7ac3a68a51c138b8e72a5fd10785152"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-sugar-snap-pea.md",
+      "claim_id": "water-soil",
+      "claim_sha256": "4f447f06d3c9722daa1d37000c3e1de9edbc3df7a5c78b9a45acec3bb5c4c011",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-peas",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peas",
+          "locator": "Watering",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "36c4e419e5a458c814bf383c86d451189ce31d951c19488d7a2c83948c1e99e1"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-sugar-snap-pea.md",
+      "claim_id": "heat",
+      "claim_sha256": "99dfa8ab461072715401bb2e80568e47ac146e4f1772e8968811cd8324314461",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-peas",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peas",
+          "locator": "Starting seeds",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "36c4e419e5a458c814bf383c86d451189ce31d951c19488d7a2c83948c1e99e1"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-sunflower.md",
+      "claim_id": "dry-weather",
+      "claim_sha256": "16adf861452b12a70dc093e228cd64005e942afc4cf75cebb87ec9f3643cdfd4",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "illinois-sunflower",
+          "url": "https://extension.illinois.edu/blogs/good-growing/2022-03-18-how-grow-sunflowers-home-great-addition-any-garden",
+          "locator": "Caring for sunflowers",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "135af4e799a1f850092152b3d86937d2515a12e0898d961f68db7282c04bc980"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-sunflower.md",
+      "claim_id": "wind-support",
+      "claim_sha256": "99e13bc1f11fb1467fbf50e526c933daae6d49924a04dab4f93247c0c592d29d",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "illinois-sunflower",
+          "url": "https://extension.illinois.edu/blogs/good-growing/2022-03-18-how-grow-sunflowers-home-great-addition-any-garden",
+          "locator": "Caring for sunflowers > Wind",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "135af4e799a1f850092152b3d86937d2515a12e0898d961f68db7282c04bc980"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-sunflower.md",
+      "claim_id": "pest-signs",
+      "claim_sha256": "dc1dd3dd508aa6fa0e5fc83cc6e3233617f3c6e328484b1303a6f2093c6b0c0a",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-sunflower",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/sunflowers",
+          "locator": "Insects",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "602805bcd7669342409bc2ac25765b29c2b3a14fbd195d54dc33d4982e760d51"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-sweet-potato.md",
+      "claim_id": "water",
+      "claim_sha256": "e12b5bc9b5e0e7e5ac493e576ebbce2499119da57bde56c10c62000bf20b8cd4",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-sweet",
+          "url": "https://extension.umd.edu/resource/growing-sweet-potatoes-home-garden",
+          "locator": "Watering",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "f33f2c220ac5a47692f72aab631dcb64e5bcba822800e92d9c42f9ada637fa09"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-sweet-potato.md",
+      "claim_id": "shallow-weeds",
+      "claim_sha256": "8d48081f441aeb7a1b68130038fdbfac9a4a3cbe0dffff639c1f79469bf09421",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usu-sweet",
+          "url": "https://extension.usu.edu/yardandgarden/research/sweet-potatoes-in-the-garden",
+          "locator": "Weeds",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/care-for-sweet-potato.md",
+      "claim_id": "late-water",
+      "claim_sha256": "57f68f2378c670e68c1395cf98ca2729ee94b3554f25b308d5f0926aee251260",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usu-sweet",
+          "url": "https://extension.usu.edu/yardandgarden/research/sweet-potatoes-in-the-garden",
+          "locator": "Water; Frequently Asked Questions",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-basil.md",
+      "claim_id": "leaf-harvest-umn",
+      "claim_sha256": "8da56d784e389a0ec641366e2209b51b46cf1e71f8f3ccf404e0fc7afe0732c7",
+      "verdict": "supports-with-scope",
+      "rationale": "Leaf harvest; no fixed first-harvest day or canopy fraction.",
+      "passages": [
+        {
+          "source_id": "umn-basil",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/growing-basil",
+          "locator": "How to keep your basil healthy and productive \u2192 Harvesting",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-basil.md",
+      "claim_id": "wet-harvest-clemson",
+      "claim_sha256": "a7ef9b672d6468a9278eaa2cd9b6590c6a7318659bb145130e7d93b7aac89ea4",
+      "verdict": "supports-with-scope",
+      "rationale": "Clemson basil guidance; risk reduction, not a guaranteed outcome.",
+      "passages": [
+        {
+          "source_id": "clemson-basil",
+          "url": "https://hgic.clemson.edu/factsheet/basil/",
+          "locator": "Problems \u2192 Gray mold",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-cherry-tomato.md",
+      "claim_id": "ripeness",
+      "claim_sha256": "18e4d941094536eefbc7be334bcf0dc692df3ca17dc949e5d70c61d69ba4c0d5",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-tomato",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+          "locator": "Harvest and storage",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "8d9da975877d3e6a086d7bc6b290566d265b3cea764666c4d2347a222f1821eb"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-cherry-tomato.md",
+      "claim_id": "frost-harvest",
+      "claim_sha256": "d2eedab1b7cf917cc59db7e409b86d7d4e70aa5cdc887d58c3f6a77f2d93cc5c",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-tomato",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+          "locator": "Harvest and storage",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "8d9da975877d3e6a086d7bc6b290566d265b3cea764666c4d2347a222f1821eb"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-dwarf-citrus.md",
+      "claim_id": "meyer-color",
+      "claim_sha256": "1614b85fdc6e3e2eb4c82788c22d41875503134628d7edca01d753d10767d52c",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uc-meyer",
+          "url": "https://ucanr.edu/site/mg-sonoma/meyer-lemon",
+          "locator": "Introduction",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "c7c60ac0a1848ac05dbceb034641d9fe44981c8690ab14b5f381d5f0004b5881"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-dwarf-citrus.md",
+      "claim_id": "sample-and-clip",
+      "claim_sha256": "6f6afe53c1496b118e02239b1d863440b042f8260cead504a637d62a8e929355",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uc-citrus",
+          "url": "https://ucanr.edu/node/129790",
+          "locator": "Harvesting",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-dwarf-citrus.md",
+      "claim_id": "persian-stage",
+      "claim_sha256": "3752b63bb64646429cc515f2e6e821230d7c957c44b90ff27a46829b39a76c4f",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uf-persian",
+          "url": "https://ask.ifas.ufl.edu/publication/CH093",
+          "locator": "Harvest, Ripening, and Storage",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "d58706afdd66f2ac058f9cc03d836b998130710e27ce97363472b97a6462885d"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-dwarf-citrus.md",
+      "claim_id": "key-stage",
+      "claim_sha256": "45566a5ea424038d3272ce04d2f09ab626bbb593afdcde1e6599538ad782f682",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uf-key",
+          "url": "https://ask.ifas.ufl.edu/publication/CH092",
+          "locator": "Harvest, Ripening, and Storage",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "0c4409abb613bd40dbf997dd3ae50ad2a8b17b09994828c401f53de69ca7c233"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-jalapeno-pepper.md",
+      "claim_id": "green-harvest",
+      "claim_sha256": "8d1db169915120f05651219300a742040dd7ccb716d8a239d64f035ccc3f4230",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-pepper",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peppers",
+          "locator": "Harvest and storage",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "2409de1a21524c37d87ba72edd9116c492ee705aaa03d647bbd8af743c06c2f2"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-jalapeno-pepper.md",
+      "claim_id": "handling",
+      "claim_sha256": "563351128eccc194ce08b8549f805e5431c02293b85518703cd0ee78362624ad",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-pepper",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peppers",
+          "locator": "Harvest and storage",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "2409de1a21524c37d87ba72edd9116c492ee705aaa03d647bbd8af743c06c2f2"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-jerusalem-artichoke.md",
+      "claim_id": "harvest-season",
+      "claim_sha256": "4746b3465c3d93c014946368d57f95f80b42c505e43d97a80101001ae28d350c",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usask",
+          "url": "https://gardening.usask.ca/gardening-advice/gardenline-nested-pages/food-plant-pages/vegetables/jerusalem-artichoke.php",
+          "locator": "Harvest, first paragraph",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "2e6cc42c1239ba0249a0443603b5934faddcaf664eab9633a3ad3299725c364b"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-jerusalem-artichoke.md",
+      "claim_id": "refrigerated-storage",
+      "claim_sha256": "6f37dacf1e3492f2f395d9e8df0f65788861c841f0f917c0952e51d030008f9f",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "johnny",
+          "url": "https://www.johnnyseeds.com/on/demandware.static/-/Library-Sites-JSSSharedLibrary/default/dw191dffad/assets/information/jerusalem-artichokes-growing-instructions.pdf",
+          "locator": "Storing",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-jerusalem-artichoke.md",
+      "claim_id": "replant-tubers",
+      "claim_sha256": "e0255687c1df6718b1a1fabc40feca8880d0d1580f7cf7c18c79a3cb14db044d",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "johnny",
+          "url": "https://www.johnnyseeds.com/on/demandware.static/-/Library-Sites-JSSSharedLibrary/default/dw191dffad/assets/information/jerusalem-artichokes-growing-instructions.pdf",
+          "locator": "Replanting",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-mint.md",
+      "claim_id": "harvest-start",
+      "claim_sha256": "dcb8962a454cca72bf0e934ed3aedc65e507bb2040cc636d9dba3d67c6eb51cf",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usu-mint",
+          "url": "https://extension.usu.edu/yardandgarden/research/mint-in-the-garden",
+          "locator": "How to Harvest and Store Mint",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-mint.md",
+      "claim_id": "young-leaves",
+      "claim_sha256": "80940e7ea3a54b5873683e53c4c2347e0977341f3fe132fb484b05efe6a3dd1a",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs-mint",
+          "url": "https://www.rhs.org.uk/herbs/mint/grow-your-own",
+          "locator": "Plant Care",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-nasturtium.md",
+      "claim_id": "edible-parts",
+      "claim_sha256": "d667ff905f29eaa7ac5472cdb6cdd811aa0a9f3de373309cade34c40b4064d86",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uw-nasturtium",
+          "url": "https://hort.extension.wisc.edu/articles/nasturtium-tropaeolum-majus/",
+          "locator": "Landscape Uses",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "71bcf8e07a193fac4e33c35b37e6813a359ff9090f6c4433faa81c3b313e8712"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-potato.md",
+      "claim_id": "mature-skin",
+      "claim_sha256": "7c644cf940f90a9d051ae39b9e9d52465d5ce74464a4efaf6ddcd78aa1398450",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "isu-potato",
+          "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-potatoes-home-garden",
+          "locator": "Harvest",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "6f27c4f4bedaac865faf5ba885f2ffbcb34017324837447d99d195296c32c4f5"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-potato.md",
+      "claim_id": "cure-temperature",
+      "claim_sha256": "00b6d7fc438f93e7b55da7d596013dbf31d04a1f4eaf021cd1f44ae52022dae2",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-potato",
+          "url": "https://www.extension.umd.edu/resource/growing-potatoes-home-garden",
+          "locator": "Storing potatoes",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "9b014eca9f2427d7f1757536db9559523aaaea1d8b6d3a63d6fae8d550336a8f"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-potato.md",
+      "claim_id": "cure-duration",
+      "claim_sha256": "a8768991b32fb8309f4470519310bac62a34b29025e5412497423a067146ed68",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-potato",
+          "url": "https://www.extension.umd.edu/resource/growing-potatoes-home-garden",
+          "locator": "Storing potatoes",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "9b014eca9f2427d7f1757536db9559523aaaea1d8b6d3a63d6fae8d550336a8f"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-potato.md",
+      "claim_id": "storage",
+      "claim_sha256": "9831fd58f773653e76b298bde5c1cc94fcafa7f93b1c4036572f93571b9a0a3e",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-potato",
+          "url": "https://www.extension.umd.edu/resource/growing-potatoes-home-garden",
+          "locator": "Storing potatoes",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "9b014eca9f2427d7f1757536db9559523aaaea1d8b6d3a63d6fae8d550336a8f"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-potato.md",
+      "claim_id": "storage-humidity",
+      "claim_sha256": "55ea8a2b1f916bd2d6bbd302583ef6109c805e64713f8957e8d995279d6cd271",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-potato",
+          "url": "https://www.extension.umd.edu/resource/growing-potatoes-home-garden",
+          "locator": "Storing potatoes",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "9b014eca9f2427d7f1757536db9559523aaaea1d8b6d3a63d6fae8d550336a8f"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-potato.md",
+      "claim_id": "green-sprouts",
+      "claim_sha256": "12cf0d221678bda3205c2d5b04b4d96a2f156c6e2cbdf53a0555df0528777932",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-potato",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-potatoes",
+          "locator": "Storage",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "8c92fb912aee13a94cbcd90a8455e6e7d7ac3a68a51c138b8e72a5fd10785152"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-sugar-snap-pea.md",
+      "claim_id": "pod-readiness",
+      "claim_sha256": "da26caf524617108fb158051d0b0dcd01a255596af38d569c8f97c8176da9a08",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-peas",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peas",
+          "locator": "Harvest and storage > Sugar snap peas",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "36c4e419e5a458c814bf383c86d451189ce31d951c19488d7a2c83948c1e99e1"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-sunflower.md",
+      "claim_id": "seed-head",
+      "claim_sha256": "16acd79f36322b19ed27707041ed387e1de00b227dd5c0bc162e50e5b730ebe6",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "illinois-sunflower",
+          "url": "https://extension.illinois.edu/blogs/good-growing/2022-03-18-how-grow-sunflowers-home-great-addition-any-garden",
+          "locator": "Harvesting sunflower seeds to eat",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "135af4e799a1f850092152b3d86937d2515a12e0898d961f68db7282c04bc980"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-sunflower.md",
+      "claim_id": "cut-flower",
+      "claim_sha256": "32ff2154e92c4793a284240c828acc1a61a6ae525f002da0e0d59fa2abaa10de",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "illinois-sunflower",
+          "url": "https://extension.illinois.edu/blogs/good-growing/2022-03-18-how-grow-sunflowers-home-great-addition-any-garden",
+          "locator": "Harvesting cut flowers",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "135af4e799a1f850092152b3d86937d2515a12e0898d961f68db7282c04bc980"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-sweet-potato.md",
+      "claim_id": "before-frost",
+      "claim_sha256": "6dd3e7c905dc17978efb94ba85a87875cd4d6df9010a93d19779583714965dbd",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "sweet-bags",
+          "url": "https://marylandgrows.umd.edu/2023/04/21/try-growing-sweet-potatoes-this-year/",
+          "locator": "Harvesting tips",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "0dbdcca698a7d8dc6615b569998ab92842a53a1d485e341690f6287d1a4cf518"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-sweet-potato.md",
+      "claim_id": "cure",
+      "claim_sha256": "ac2d7a830d4126c86e38a5408c3ef00d3401f582f1637b705ea89a6a4f15e9b9",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usu-sweet",
+          "url": "https://extension.usu.edu/yardandgarden/research/sweet-potatoes-in-the-garden",
+          "locator": "How to Harvest and Store",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-sweet-potato.md",
+      "claim_id": "cure-duration",
+      "claim_sha256": "a817b6c5946e38c871bf7fe5d04c48fb8f4077ba093d283441738fb8822d2cf7",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usu-sweet",
+          "url": "https://extension.usu.edu/yardandgarden/research/sweet-potatoes-in-the-garden",
+          "locator": "How to Harvest and Store",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-sweet-potato.md",
+      "claim_id": "storage",
+      "claim_sha256": "e54d74a1ac7594a90e6b4112e28ed4f0303197484b81c8dde03803f2de51f491",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usu-sweet",
+          "url": "https://extension.usu.edu/yardandgarden/research/sweet-potatoes-in-the-garden",
+          "locator": "How to Harvest and Store",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-sweet-potato.md",
+      "claim_id": "cure-msu",
+      "claim_sha256": "2a24f447cc6a759f28891cf05bcceaa96110c2da6a5702c3a0962d45f9b9c5e9",
+      "verdict": "supports-with-scope",
+      "rationale": "Mississippi home-garden guidance; keep this complete method separate from USU.",
+      "passages": [
+        {
+          "source_id": "msu-sweet",
+          "url": "https://extension.msstate.edu/publications/growing-sweet-potatoes-home",
+          "locator": "Curing",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/harvest-sweet-potato.md",
+      "claim_id": "storage-msu",
+      "claim_sha256": "ca1845d5b5df9dc5b7461bfa3406659d1c10a4e914e48cba7c818f298fa548d0",
+      "verdict": "supports-with-scope",
+      "rationale": "Mississippi guidance; different lower temperature limit from USU.",
+      "passages": [
+        {
+          "source_id": "msu-sweet",
+          "url": "https://extension.msstate.edu/publications/growing-sweet-potatoes-home",
+          "locator": "Storage",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/investigate-basil-symptoms.md",
+      "claim_id": "downy-signs-umn",
+      "claim_sha256": "cef02c50c084984cfb16dbca13bb14656d6c6d1b4f6c0a01166ecaa1133d2df9",
+      "verdict": "supports-with-scope",
+      "rationale": "Basil; these signs support investigation, not diagnosis from yellowing alone.",
+      "passages": [
+        {
+          "source_id": "umn-downy",
+          "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/basil-downy-mildew",
+          "locator": "How to tell downy mildew from other basil issues",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/investigate-basil-symptoms.md",
+      "claim_id": "downy-response-umn",
+      "claim_sha256": "b0036eed02b57982c126e022814a012e52e4c2f89813a7cdcbf2db3b810f98f7",
+      "verdict": "supports-with-scope",
+      "rationale": "Confirmed downy mildew; removal is not prescribed for unexplained yellowing.",
+      "passages": [
+        {
+          "source_id": "umn-downy",
+          "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/basil-downy-mildew",
+          "locator": "Managing downy mildew in the home garden \u2192 Cultural controls",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/investigate-jerusalem-artichoke.md",
+      "claim_id": "rodent-candidate",
+      "claim_sha256": "772608121da27b27b0640a6d33b0d8644547742b1a7a2a9d7f7c9c9f94114f2f",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "johnny",
+          "url": "https://www.johnnyseeds.com/on/demandware.static/-/Library-Sites-JSSSharedLibrary/default/dw191dffad/assets/information/jerusalem-artichokes-growing-instructions.pdf",
+          "locator": "Weeds, pests, and disease",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-cherry-tomato.md",
+      "claim_id": "readiness",
+      "claim_sha256": "45322768c746d814e64628868fb79577d1e385c71949122a297a801f6884598d",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-tomato",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+          "locator": "Transplanting > Climate and Treatment",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "8d9da975877d3e6a086d7bc6b290566d265b3cea764666c4d2347a222f1821eb"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-cherry-tomato.md",
+      "claim_id": "ground-spacing",
+      "claim_sha256": "f1f973242b2a98d3d6d329dff97f4048536cc8f01da24ce6d42f9090b69377ca",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-tomato",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+          "locator": "Transplanting > Location",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "8d9da975877d3e6a086d7bc6b290566d265b3cea764666c4d2347a222f1821eb"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-cherry-tomato.md",
+      "claim_id": "depth",
+      "claim_sha256": "befb9f591c1b3b653d0f24fea5503179fce2b2ab226edaec530e4708ec2b7832",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-tomato",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+          "locator": "Transplanting > Treatment",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "8d9da975877d3e6a086d7bc6b290566d265b3cea764666c4d2347a222f1821eb"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-cherry-tomato.md",
+      "claim_id": "bag-volume",
+      "claim_sha256": "539352f31e1fc450e2c3d265305dbad81381bf7f57efbc69ce6cae45e5430071",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-container",
+          "url": "https://extension.umd.edu/resource/types-containers-growing-vegetables",
+          "locator": "Choose the right container size > Large vegetables",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "aacd78e5c59efe45009896fd5102b7d234360fe7d2c8899f74ddac8959e666f6"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-cherry-tomato.md",
+      "claim_id": "bag-depth",
+      "claim_sha256": "2f487c2978a1ad74e25341e36fc5cc94800c5d05aeb17f2ec0179ec7cc3e2e89",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-container",
+          "url": "https://extension.umd.edu/resource/types-containers-growing-vegetables",
+          "locator": "Choose the right container size > Large vegetables",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "aacd78e5c59efe45009896fd5102b7d234360fe7d2c8899f74ddac8959e666f6"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-cherry-tomato.md",
+      "claim_id": "site-light",
+      "claim_sha256": "5ec2ab4f02478d57d093f8d820dc51e8e859635c21489e09c96a5230b62a411f",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-tomato",
+          "url": "https://extension.umd.edu/resource/growing-tomatoes-home-garden",
+          "locator": "About tomatoes \u2192 Planting",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "679f4fc6a5ec561a384fa09303f8f0c018ad95e7951973425d3fb1f856cff99d"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-dwarf-citrus.md",
+      "claim_id": "rootstock",
+      "claim_sha256": "de3361396a5bc360a379a3598febf5fba463f269c7e5584222a75976c43c83d0",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uc-citrus",
+          "url": "https://ucanr.edu/node/129790",
+          "locator": "Choosing a tree",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-dwarf-citrus.md",
+      "claim_id": "plant-depth",
+      "claim_sha256": "0d74898a251b6f557a2514f1ca0924d55bc70548b8541e7842655dde24a13f0f",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uc-citrus",
+          "url": "https://ucanr.edu/node/129790",
+          "locator": "Planting",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-dwarf-citrus.md",
+      "claim_id": "pot-size",
+      "claim_sha256": "1bd5ae89762a3f0252204083c61eba202c4aa849bdbd8fff0d73e5e76d6f82c1",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uc-citrus",
+          "url": "https://ucanr.edu/node/129790",
+          "locator": "Planting > Containers",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-dwarf-citrus.md",
+      "claim_id": "light",
+      "claim_sha256": "e6641ccc425e225679474ffb1bd7f1c161b3d3a81dcfb261301db3874d284fd6",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-citrus",
+          "url": "https://extension.umd.edu/resource/growing-dwarf-citrus",
+          "locator": "Light",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "0e12af355264a41de42098ff0e70a75729d86b83a207a75462950378869ea68f"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jalapeno-pepper.md",
+      "claim_id": "night-temperature",
+      "claim_sha256": "bbd811eedf6a689ed61031006314db369d47c92e30ec11b465e7b3265a1aede6",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-pepper",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peppers",
+          "locator": "Transplanting > Climate",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "2409de1a21524c37d87ba72edd9116c492ee705aaa03d647bbd8af743c06c2f2"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jalapeno-pepper.md",
+      "claim_id": "soil-temperature",
+      "claim_sha256": "1a87063dda62e639aad6fceb48c8a09caef37ff3d81f9d6c0469f854a1e1bd26",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-pepper",
+          "url": "https://extension.umd.edu/resource/growing-peppers-home-garden",
+          "locator": "Planting pepper facts",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "4f0ffae9b3d6cb9760e5f4a3302638f2533ceb52c6b3860fd723a0cfea8159ab"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jalapeno-pepper.md",
+      "claim_id": "spacing",
+      "claim_sha256": "c960ee2275675f405fa8a111f49fefda06465329411aba7814c8ef6b67c051ce",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-pepper",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peppers",
+          "locator": "Transplanting > Location",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "2409de1a21524c37d87ba72edd9116c492ee705aaa03d647bbd8af743c06c2f2"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jalapeno-pepper.md",
+      "claim_id": "row-spacing",
+      "claim_sha256": "71b6482670be46bb104bd145f535be0493cb85ac1efda02c5e48b894246e9a46",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-pepper",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peppers",
+          "locator": "Transplanting > Location",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "2409de1a21524c37d87ba72edd9116c492ee705aaa03d647bbd8af743c06c2f2"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jalapeno-pepper.md",
+      "claim_id": "depth",
+      "claim_sha256": "6c3a0dbfbdc2d23865791acd8e267d95de6aa874ed8b0ee4e388b104a5f0c7af",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-pepper",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peppers",
+          "locator": "Transplanting > Treatment",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "2409de1a21524c37d87ba72edd9116c492ee705aaa03d647bbd8af743c06c2f2"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jalapeno-pepper.md",
+      "claim_id": "bag-size",
+      "claim_sha256": "a81e64bc3c28f4a753b8be83905422e69d6711dbca7dff1ac7bb732407aeeddf",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-pepper",
+          "url": "https://extension.umd.edu/resource/growing-peppers-home-garden",
+          "locator": "Growing and care",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "4f0ffae9b3d6cb9760e5f4a3302638f2533ceb52c6b3860fd723a0cfea8159ab"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jalapeno-pepper.md",
+      "claim_id": "site-light",
+      "claim_sha256": "0eaaebdd7a34e60271d763fc98100b47584e7b7733e169fe92df5d2ac4e8ac67",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uconn-pepper",
+          "url": "https://homegarden.cahnr.uconn.edu/factsheets/peppers/",
+          "locator": "Soil Requirements",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "89eb6d0e430252d9bac8fbed23b2349505661e865c662ef309f042e60ff4fc1d"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jerusalem-artichoke.md",
+      "claim_id": "ground-depth",
+      "claim_sha256": "3e55231a69b23518ca7a88415f4955c558d9a95d2d70d903a394aaa6863675e4",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usask",
+          "url": "https://gardening.usask.ca/gardening-advice/gardenline-nested-pages/food-plant-pages/vegetables/jerusalem-artichoke.php",
+          "locator": "Growing outdoors > Planting instructions",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "2e6cc42c1239ba0249a0443603b5934faddcaf664eab9633a3ad3299725c364b"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jerusalem-artichoke.md",
+      "claim_id": "ground-in-row",
+      "claim_sha256": "1b3e845e4d6a83bda5af4ed060c51c17cbeeee5293fde96ae1194d82211d7242",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usask",
+          "url": "https://gardening.usask.ca/gardening-advice/gardenline-nested-pages/food-plant-pages/vegetables/jerusalem-artichoke.php",
+          "locator": "Growing outdoors > Planting instructions",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "2e6cc42c1239ba0249a0443603b5934faddcaf664eab9633a3ad3299725c364b"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jerusalem-artichoke.md",
+      "claim_id": "ground-rows",
+      "claim_sha256": "e2c56bc6876c4e7acb8ae849d764d1d6e6b10814d8bb2500916c2e278dfa0725",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usask",
+          "url": "https://gardening.usask.ca/gardening-advice/gardenline-nested-pages/food-plant-pages/vegetables/jerusalem-artichoke.php",
+          "locator": "Growing outdoors > Planting instructions",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "2e6cc42c1239ba0249a0443603b5934faddcaf664eab9633a3ad3299725c364b"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jerusalem-artichoke.md",
+      "claim_id": "container-dimensions",
+      "claim_sha256": "b85549dd4c62a3a214b716ca7e9f417762edf9827721b67ad91f6316652a3e8a",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs",
+          "url": "https://www.rhs.org.uk/vegetables/jerusalem-artichokes/grow-your-own",
+          "locator": "Planting > Planting in containers",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jerusalem-artichoke.md",
+      "claim_id": "container-count",
+      "claim_sha256": "25786dd96345cfb2e0e8bfb02e0e33e2895ddb7a7276d05dac146bf5898234dd",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs",
+          "url": "https://www.rhs.org.uk/vegetables/jerusalem-artichokes/grow-your-own",
+          "locator": "Planting > Planting in containers",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jerusalem-artichoke.md",
+      "claim_id": "container-depth",
+      "claim_sha256": "eeb9756b60d3efb26197637763ab4604177350061a32ce71404a23d876ab9b4d",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs",
+          "url": "https://www.rhs.org.uk/vegetables/jerusalem-artichokes/grow-your-own",
+          "locator": "Planting > Planting in containers",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jerusalem-artichoke.md",
+      "claim_id": "ground-season",
+      "claim_sha256": "0b25c952ecc23d6b4e985dd8f3111d506fafb5dfcb4397ddec9c243f78738501",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "mu",
+          "url": "https://extension.missouri.edu/news/north-americas-nearly-forgotten-native-vegetable",
+          "locator": "Planting guidance",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-jerusalem-artichoke.md",
+      "claim_id": "site-light",
+      "claim_sha256": "3193d2860f8dda1757b439ea9e64e86185c4063ce36096ddc82161cbede9481b",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usask",
+          "url": "https://gardening.usask.ca/gardening-advice/gardenline-nested-pages/food-plant-pages/vegetables/jerusalem-artichoke.php",
+          "locator": "Site requirements",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "2e6cc42c1239ba0249a0443603b5934faddcaf664eab9633a3ad3299725c364b"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-mint.md",
+      "claim_id": "light",
+      "claim_sha256": "c75ee9346aa5e44a5f3776b89eaaac091b27f50cb87e99563abcda589007648a",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs-mint",
+          "url": "https://www.rhs.org.uk/herbs/mint/grow-your-own",
+          "locator": "Planting",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-mint.md",
+      "claim_id": "container",
+      "claim_sha256": "3bb67cba90f5d146c1587177a771fe1146369322e7a327ba87ea2ae0cba57b01",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs-mint",
+          "url": "https://www.rhs.org.uk/herbs/mint/grow-your-own",
+          "locator": "Planting",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-mint.md",
+      "claim_id": "transplant-depth",
+      "claim_sha256": "fac788c4ce991ef0a7d2f072973b2b67dd679b5f0c0f1f9525faa5a5d13fadf7",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usu-mint",
+          "url": "https://extension.usu.edu/yardandgarden/research/mint-in-the-garden",
+          "locator": "Planting and Spacing",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-mint.md",
+      "claim_id": "container-size-umd",
+      "claim_sha256": "2c6215b43cd66d701547a0262f597b4e30e671e222afd88b837f198b4a598f9d",
+      "verdict": "supports-with-scope",
+      "rationale": "General container class, not a mint cultivar density or fabric trial.",
+      "passages": [
+        {
+          "source_id": "umd-containers",
+          "url": "https://extension.umd.edu/resource/types-containers-growing-vegetables",
+          "locator": "Choose the right container size \u2192 Small vegetables or flowering plant",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-mint.md",
+      "claim_id": "season-rhs",
+      "claim_sha256": "ef574e1e3f503ccd055335d5ed0cb95f54a50a45882b118b6ccf72658f1696f3",
+      "verdict": "supports-with-scope",
+      "rationale": "UK seasonal guidance; match local conditions rather than copying calendar months.",
+      "passages": [
+        {
+          "source_id": "rhs-mint",
+          "url": "https://www.rhs.org.uk/herbs/mint/grow-your-own",
+          "locator": "Planting",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-nasturtium.md",
+      "claim_id": "sow-depth",
+      "claim_sha256": "f791659a7eaa6fa0792992e511e81cd19a3db91832f862a3404e962ee357da52",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uw-nasturtium",
+          "url": "https://hort.extension.wisc.edu/articles/nasturtium-tropaeolum-majus/",
+          "locator": "Propagating",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "71bcf8e07a193fac4e33c35b37e6813a359ff9090f6c4433faa81c3b313e8712"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-nasturtium.md",
+      "claim_id": "spacing",
+      "claim_sha256": "6abbb628f3085fe7282cd1beda958a1124bedd12697910c97b13af117381c548",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uw-nasturtium",
+          "url": "https://hort.extension.wisc.edu/articles/nasturtium-tropaeolum-majus/",
+          "locator": "Propagating",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "71bcf8e07a193fac4e33c35b37e6813a359ff9090f6c4433faa81c3b313e8712"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-nasturtium.md",
+      "claim_id": "site",
+      "claim_sha256": "5b08795bf05d3775ffd97528850228229872f1d4cfd9bbf9bb5eb2d57f25b7b5",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "uw-nasturtium",
+          "url": "https://hort.extension.wisc.edu/articles/nasturtium-tropaeolum-majus/",
+          "locator": "Landscape Uses",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "71bcf8e07a193fac4e33c35b37e6813a359ff9090f6c4433faa81c3b313e8712"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-nasturtium.md",
+      "claim_id": "bag-habit",
+      "claim_sha256": "e87dbbf1ac36615ac052e2ffe18afbd510be238ad9b52b84a395e875f8041e93",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs-nasturtium",
+          "url": "https://www.rhs.org.uk/plants/nasturtiums/annual-nasturtiums/how-to-grow-annual-nasturtiums",
+          "locator": "Choosing; Where to plant",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-nasturtium.md",
+      "claim_id": "packet-container",
+      "claim_sha256": "f7f0c57c0a2163e924299c8e610e1d3fb1434a3894517e9b653250f3151a3097",
+      "verdict": "supports-with-scope",
+      "rationale": "Exact named product; seed spacing and final thinning are kept distinct. Pot-to-fabric adaptation is explicit.",
+      "passages": [
+        {
+          "source_id": "little-firebirds-packet",
+          "url": "https://www.reneesgarden.com/products/nasturtium-container-little-firebirds",
+          "locator": "Easy to Start Outdoors \u2192 Container Planting",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-nasturtium.md",
+      "claim_id": "packet-sowing",
+      "claim_sha256": "72e470bf79255e5f6d61c9d49cbfc2f0756b0eb171ddba8f01f4722348725cd4",
+      "verdict": "supports-with-scope",
+      "rationale": "Exact named product; seed spacing and final thinning are kept distinct. Pot-to-fabric adaptation is explicit.",
+      "passages": [
+        {
+          "source_id": "little-firebirds-packet",
+          "url": "https://www.reneesgarden.com/products/nasturtium-container-little-firebirds",
+          "locator": "Easy to Start Outdoors \u2192 Container Planting",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-potato.md",
+      "claim_id": "seed-stock",
+      "claim_sha256": "6b883d43f33516353aa8afb597f94ed7b1f13ce29ae8960210cbbc94632074bd",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-potato",
+          "url": "https://www.extension.umd.edu/resource/growing-potatoes-home-garden",
+          "locator": "Planting potato facts",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "9b014eca9f2427d7f1757536db9559523aaaea1d8b6d3a63d6fae8d550336a8f"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-potato.md",
+      "claim_id": "warm-soil",
+      "claim_sha256": "79c2dfb946b3383ff3673ba774f4170c720900914f9f38b7e2d2f26d1c5ae5b1",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-potato",
+          "url": "https://www.extension.umd.edu/resource/growing-potatoes-home-garden",
+          "locator": "Planting potato facts",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "9b014eca9f2427d7f1757536db9559523aaaea1d8b6d3a63d6fae8d550336a8f"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-potato.md",
+      "claim_id": "ground-depth",
+      "claim_sha256": "35a881fbe924a6777431cd4b74fdaec47d3bd563d8d73c8e87f9cad3d87048cd",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "isu-potato",
+          "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-potatoes-home-garden",
+          "locator": "Planting",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "6f27c4f4bedaac865faf5ba885f2ffbcb34017324837447d99d195296c32c4f5"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-potato.md",
+      "claim_id": "ground-spacing",
+      "claim_sha256": "0d9ea34044c9ee8c88249026bf86f2f26d174dca7896ae2e997ae3c2d6cf6d99",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "isu-potato",
+          "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-potatoes-home-garden",
+          "locator": "Planting",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "6f27c4f4bedaac865faf5ba885f2ffbcb34017324837447d99d195296c32c4f5"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-potato.md",
+      "claim_id": "ground-row-spacing",
+      "claim_sha256": "2e2879180e1f6ac9866367adb31a835ac7fb895ae9a0b9f55d6a4a4d7962b50e",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "isu-potato",
+          "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-potatoes-home-garden",
+          "locator": "Planting",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "6f27c4f4bedaac865faf5ba885f2ffbcb34017324837447d99d195296c32c4f5"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-potato.md",
+      "claim_id": "bag-dimensions",
+      "claim_sha256": "20905d3033f9a57cded9d54b29a13f27d98ef704413e0b38e5abce41412f2597",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "spudnik",
+          "url": "https://marylandgrows.umd.edu/2020/03/20/potatoes-grow-in-bags-at-project-spudnik/",
+          "locator": "Potato growing tips, item 2",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "e3b479d909c577f9be050f6469b942ef8cb3764043c7ae9757a94e53e0f449e5"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-potato.md",
+      "claim_id": "bag-capacity",
+      "claim_sha256": "4ff62794aa6a77f84e443448fcbde4ce63a93b671bd7764a0e14dddf6872dd8a",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "spudnik",
+          "url": "https://marylandgrows.umd.edu/2020/03/20/potatoes-grow-in-bags-at-project-spudnik/",
+          "locator": "Potato growing tips, item 2",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "e3b479d909c577f9be050f6469b942ef8cb3764043c7ae9757a94e53e0f449e5"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-potato.md",
+      "claim_id": "bag-count",
+      "claim_sha256": "26c685b2bdfc955ef7aa71dc5f3fd9e2d8310ab39429046176ed3090eefbc051",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "spudnik",
+          "url": "https://marylandgrows.umd.edu/2020/03/20/potatoes-grow-in-bags-at-project-spudnik/",
+          "locator": "Potato growing tips, item 4",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "e3b479d909c577f9be050f6469b942ef8cb3764043c7ae9757a94e53e0f449e5"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-potato.md",
+      "claim_id": "base-layer",
+      "claim_sha256": "9baabcffebb0577ff5c41b9fa132e36611b5715d35bd0852c4997518f43179ca",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "spudnik",
+          "url": "https://marylandgrows.umd.edu/2020/03/20/potatoes-grow-in-bags-at-project-spudnik/",
+          "locator": "Potato growing tips, item 3",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "e3b479d909c577f9be050f6469b942ef8cb3764043c7ae9757a94e53e0f449e5"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-potato.md",
+      "claim_id": "seed-cover",
+      "claim_sha256": "fb63e473a7ca132d17e189a84978caa1914b53d23c650359cf0fdcd76e12174d",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "spudnik",
+          "url": "https://marylandgrows.umd.edu/2020/03/20/potatoes-grow-in-bags-at-project-spudnik/",
+          "locator": "Potato growing tips, item 4",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "e3b479d909c577f9be050f6469b942ef8cb3764043c7ae9757a94e53e0f449e5"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-potato.md",
+      "claim_id": "site-light",
+      "claim_sha256": "d201e962ff61fc97c51f43e87ca96a727d744a76c0e6c550b565351dfd52126f",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "isu-potato",
+          "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-potatoes-home-garden",
+          "locator": "Planting",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "6f27c4f4bedaac865faf5ba885f2ffbcb34017324837447d99d195296c32c4f5"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sugar-snap-pea.md",
+      "claim_id": "season",
+      "claim_sha256": "e5f8684bcf535d88a82f861f564eb482a4c8534d8be06f0369d50ff2909801c3",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-peas",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peas",
+          "locator": "Starting seeds",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "36c4e419e5a458c814bf383c86d451189ce31d951c19488d7a2c83948c1e99e1"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sugar-snap-pea.md",
+      "claim_id": "depth",
+      "claim_sha256": "bc030e7609a6f675785fc46e7d2170567911aa25c84b2ccb2dd53d49c130aa5b",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-peas",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peas",
+          "locator": "Starting seeds",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "36c4e419e5a458c814bf383c86d451189ce31d951c19488d7a2c83948c1e99e1"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sugar-snap-pea.md",
+      "claim_id": "spacing",
+      "claim_sha256": "77508c06b3e1367f6731733f17b1051839a0b9862cbedb3b0ca88a1d34430e7f",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-peas",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peas",
+          "locator": "Starting seeds",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "36c4e419e5a458c814bf383c86d451189ce31d951c19488d7a2c83948c1e99e1"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sugar-snap-pea.md",
+      "claim_id": "rhs-spacing",
+      "claim_sha256": "28041c4b372f6acb931361775a333eb57ae2066c9aac209007d5334fbb85d525",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs-peas",
+          "url": "https://www.rhs.org.uk/vegetables/peas/grow-your-own",
+          "locator": "Sowing outdoors",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sugar-snap-pea.md",
+      "claim_id": "bag-selection",
+      "claim_sha256": "5d98e287df0fc05852d6e062cf2ad10b9d5fda2fcc9db7f73b5408c5736ce2cd",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "rhs-peas",
+          "url": "https://www.rhs.org.uk/vegetables/peas/grow-your-own",
+          "locator": "Sowing outdoors in containers",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": null
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sugar-snap-pea.md",
+      "claim_id": "support",
+      "claim_sha256": "ee6b5e7733894c38c8d6ec92df59fb7db8d9d37d59013ba43c01b31f699ee3d4",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-peas",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peas",
+          "locator": "Starting seeds",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "36c4e419e5a458c814bf383c86d451189ce31d951c19488d7a2c83948c1e99e1"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sugar-snap-pea.md",
+      "claim_id": "packet-container",
+      "claim_sha256": "e9781e04773591f4f9f57b2f5e37a7e75fe1bfd26ace6e0ef8a3327454435992",
+      "verdict": "supports-with-scope",
+      "rationale": "Exact named product; seed spacing and final thinning are kept distinct. Pot-to-fabric adaptation is explicit.",
+      "passages": [
+        {
+          "source_id": "sugar-ann-packet",
+          "url": "https://www.reneesgarden.com/collections/renees-seed-packets/products/container-snap-peas-sugar-ann",
+          "locator": "For Containers",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sugar-snap-pea.md",
+      "claim_id": "packet-sowing",
+      "claim_sha256": "bff119636d1029bbd655df59b2a7f9f4b7e0762112ad9c022a872e73902356bc",
+      "verdict": "supports-with-scope",
+      "rationale": "Exact named product; seed spacing and final thinning are kept distinct. Pot-to-fabric adaptation is explicit.",
+      "passages": [
+        {
+          "source_id": "sugar-ann-packet",
+          "url": "https://www.reneesgarden.com/collections/renees-seed-packets/products/container-snap-peas-sugar-ann",
+          "locator": "For Containers",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sugar-snap-pea.md",
+      "claim_id": "packet-support",
+      "claim_sha256": "6ce6a01f0219655ad4b6d7f641c41f8db6495ff841646e8d0c76fab88bb186e6",
+      "verdict": "supports-with-scope",
+      "rationale": "Exact named product; seed spacing and final thinning are kept distinct. Pot-to-fabric adaptation is explicit.",
+      "passages": [
+        {
+          "source_id": "sugar-ann-packet",
+          "url": "https://www.reneesgarden.com/collections/renees-seed-packets/products/container-snap-peas-sugar-ann",
+          "locator": "For Containers",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sunflower.md",
+      "claim_id": "depth",
+      "claim_sha256": "d2e0a66c5dd815b6a822b44dd3f902b79e78dd476df39cd531b0f08bfc9f5d84",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-sunflower",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/sunflowers",
+          "locator": "Planting > Direct seeding",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "602805bcd7669342409bc2ac25765b29c2b3a14fbd195d54dc33d4982e760d51"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sunflower.md",
+      "claim_id": "dwarf-bag",
+      "claim_sha256": "c9e6f8cbe18d91efc19f32c00676323534626dac3276bbb2ee6bc809214719f4",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-sunflower",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/sunflowers",
+          "locator": "Dwarf cultivars",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "602805bcd7669342409bc2ac25765b29c2b3a14fbd195d54dc33d4982e760d51"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sunflower.md",
+      "claim_id": "giant-spacing",
+      "claim_sha256": "b9a6bfc912e45619abab6bd07bf08de09c6fcad0a988d510339f57ed9cbe6c00",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-sunflower",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/sunflowers",
+          "locator": "Giant cultivars",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "602805bcd7669342409bc2ac25765b29c2b3a14fbd195d54dc33d4982e760d51"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sunflower.md",
+      "claim_id": "site-light",
+      "claim_sha256": "083e619477f28caa66841f2b315caea28fe428c7dcc25bb1b919ea042848a3c2",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umn-sunflower",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/sunflowers",
+          "locator": "Planting",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "602805bcd7669342409bc2ac25765b29c2b3a14fbd195d54dc33d4982e760d51"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sunflower.md",
+      "claim_id": "packet-container",
+      "claim_sha256": "721ac9ccf48ebc01bd4c33b44f8b9e5835b3fac7ee559f40634acfa55d82cca1",
+      "verdict": "supports-with-scope",
+      "rationale": "Exact named product; seed spacing and final thinning are kept distinct. Pot-to-fabric adaptation is explicit.",
+      "passages": [
+        {
+          "source_id": "junior-packet",
+          "url": "https://www.reneesgarden.com/products/sunflower-container-junior",
+          "locator": "Plant directly in the garden or container",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sunflower.md",
+      "claim_id": "packet-sowing",
+      "claim_sha256": "72ad9ab1723d85f32ff329e7eb89b9b40c4d6c6eacc5851d207797d7564a11ff",
+      "verdict": "supports-with-scope",
+      "rationale": "Exact named product; seed spacing and final thinning are kept distinct. Pot-to-fabric adaptation is explicit.",
+      "passages": [
+        {
+          "source_id": "junior-packet",
+          "url": "https://www.reneesgarden.com/products/sunflower-container-junior",
+          "locator": "Plant directly in the garden or container",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sweet-potato.md",
+      "claim_id": "warm-soil",
+      "claim_sha256": "559d8ca043beada142b9554f44dd0597f2abdf00b499ea5220a24daac510937f",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-sweet",
+          "url": "https://extension.umd.edu/resource/growing-sweet-potatoes-home-garden",
+          "locator": "Planting; Growing and care, item 6",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "f33f2c220ac5a47692f72aab631dcb64e5bcba822800e92d9c42f9ada637fa09"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sweet-potato.md",
+      "claim_id": "row-spacing",
+      "claim_sha256": "d13a2b79dfd57922209621efb481629dec84b67d810c8802cd1b79c80f0dfcd1",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-sweet",
+          "url": "https://extension.umd.edu/resource/growing-sweet-potatoes-home-garden",
+          "locator": "Planting sweet potato",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "f33f2c220ac5a47692f72aab631dcb64e5bcba822800e92d9c42f9ada637fa09"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sweet-potato.md",
+      "claim_id": "slip-spacing",
+      "claim_sha256": "24e5390e7b098721f0b90de8e5f6cd26d7d0aa79168c0c8238b31dc1dec23fca",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-sweet",
+          "url": "https://extension.umd.edu/resource/growing-sweet-potatoes-home-garden",
+          "locator": "Planting sweet potato",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "f33f2c220ac5a47692f72aab631dcb64e5bcba822800e92d9c42f9ada637fa09"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sweet-potato.md",
+      "claim_id": "bag-size",
+      "claim_sha256": "0ec63faa7876bb6d128f5c397f28259b63dc0f6a6062f7805ca59a9d9438a906",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "sweet-bags",
+          "url": "https://marylandgrows.umd.edu/2023/04/21/try-growing-sweet-potatoes-this-year/",
+          "locator": "General growing tips, container photo caption",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "0dbdcca698a7d8dc6615b569998ab92842a53a1d485e341690f6287d1a4cf518"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sweet-potato.md",
+      "claim_id": "slip-depth",
+      "claim_sha256": "559e097fe8c38cebe252680d1d4c5c2474b4c36e4b1e2d8a642761bfe5d6ef16",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "aces-sweet",
+          "url": "https://www.aces.edu/blog/topics/lawn-garden/grow-more-sweet-potato/",
+          "locator": "Plant",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "6cce5eb08bf7249c7795a8d90bc960cf0538a1d868efeee4b4a5801fa5a0118f"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/plant-sweet-potato.md",
+      "claim_id": "site-light",
+      "claim_sha256": "98e6d3e72241032c807ad7c55abca9fd9f1d46dc8a55516a8532e7759032c8be",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "sweet-bags",
+          "url": "https://marylandgrows.umd.edu/2023/04/21/try-growing-sweet-potatoes-this-year/",
+          "locator": "General growing tips",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "0dbdcca698a7d8dc6615b569998ab92842a53a1d485e341690f6287d1a4cf518"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/propagate-basil.md",
+      "claim_id": "water-cutting-rhs",
+      "claim_sha256": "cebdb304e9ab434d19935f8e9276699aa45c43dd95f984e5a2645d2f10b790fb",
+      "verdict": "supports-with-scope",
+      "rationale": "RHS summer propagation; no minimum root-length threshold or success-rate claim.",
+      "passages": [
+        {
+          "source_id": "rhs-basil",
+          "url": "https://www.rhs.org.uk/herbs/basil/grow-your-own",
+          "locator": "Plant care \u2192 Propagating",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/save-basil-seed.md",
+      "claim_id": "mature-seed-ssc",
+      "claim_sha256": "324900c9ad9bdfc8ee619a0f4344e97a0d22afb807ff6eaca61d6b48ac34467a",
+      "verdict": "supports-with-scope",
+      "rationale": "Seed-bearing basil; Seed Savers Connect, 2025. Does not establish cultivar purity.",
+      "passages": [
+        {
+          "source_id": "ssc-basil",
+          "url": "https://www.seedsavers.org.au/2025/09/14/basil/",
+          "locator": "Seed maturity; Harvest",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/save-basil-seed.md",
+      "claim_id": "clean-store-seed-ssc",
+      "claim_sha256": "a3dcd6bdde66214e5be0d23ae22690cd57c3d859358ae86ec6a2935d8f0e3d66",
+      "verdict": "supports-with-scope",
+      "rationale": "Fully dry seed; no guaranteed storage life.",
+      "passages": [
+        {
+          "source_id": "ssc-basil",
+          "url": "https://www.seedsavers.org.au/2025/09/14/basil/",
+          "locator": "Processing; Storage",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/sow-basil.md",
+      "claim_id": "outdoor-sowing-umn",
+      "claim_sha256": "721bf3a1b53028efa5b5470dd009eca77be3a3a5e828c4d86018a50e020cdb4b",
+      "verdict": "supports-with-scope",
+      "rationale": "Minnesota outdoor beds; not container density.",
+      "passages": [
+        {
+          "source_id": "umn-basil",
+          "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/growing-basil",
+          "locator": "Planting \u2192 Direct seeding",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/sow-basil.md",
+      "claim_id": "indoor-sowing-rhs",
+      "claim_sha256": "8d3a75ea3d96dba659243e46430186e323181502b1523e49b5b22a2d297a919b",
+      "verdict": "supports-with-scope",
+      "rationale": "RHS UK indoor method; separate from Minnesota soil-cover method.",
+      "passages": [
+        {
+          "source_id": "rhs-basil",
+          "url": "https://www.rhs.org.uk/herbs/basil/grow-your-own",
+          "locator": "Sowing indoors",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "procedures/transplant-basil.md",
+      "claim_id": "rhs-container-planting",
+      "claim_sha256": "2b88a40531895b5601142b9397ac24ddc8348dcb07217792650787c3f3138e80",
+      "verdict": "supports-with-scope",
+      "rationale": "UK container guidance; a fabric bag with these dimensions is an adaptation, not a fabric trial.",
+      "passages": [
+        {
+          "source_id": "rhs-basil",
+          "url": "https://www.rhs.org.uk/herbs/basil/grow-your-own",
+          "locator": "Planting",
+          "accessed": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "entity": "systems/jerusalem-artichoke-grow-bags.md",
+      "claim_id": "fabric-drying",
+      "claim_sha256": "126f7ce79ec302f52f7e047d49d75b5385f5527d92c832a099ed2c333a21e58d",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "water",
+          "url": "https://extension.illinois.edu/blogs/flowers-fruits-and-frass/2020-06-22-6-tips-watering-container-gardens",
+          "locator": "Tip 3, Container materials",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "ef5b74fa6dd1068f0b5d92790b38ae09d0392e6f5c2818b880938a3689785176"
+        }
+      ]
+    },
+    {
+      "entity": "systems/jerusalem-artichoke-grow-bags.md",
+      "claim_id": "pail-alternative",
+      "claim_sha256": "6452d4c3a590bf245d1d01f9dea1951bd5819041e00ab7ab853b89594814b9d7",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "usask",
+          "url": "https://gardening.usask.ca/gardening-advice/gardenline-nested-pages/food-plant-pages/vegetables/jerusalem-artichoke.php",
+          "locator": "Growing in containers",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "2e6cc42c1239ba0249a0443603b5934faddcaf664eab9633a3ad3299725c364b"
+        }
+      ]
+    },
+    {
+      "entity": "systems/outdoor-grow-bags.md",
+      "claim_id": "drainage",
+      "claim_sha256": "68c0fa1d488dda6612b3de21eea0ccdcbde59a8fa67648fde245ae1deb1beca0",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-container",
+          "url": "https://extension.umd.edu/resource/types-containers-growing-vegetables",
+          "locator": "Container drainage",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "aacd78e5c59efe45009896fd5102b7d234360fe7d2c8899f74ddac8959e666f6"
+        }
+      ]
+    },
+    {
+      "entity": "systems/outdoor-grow-bags.md",
+      "claim_id": "medium",
+      "claim_sha256": "92f0c53904a1df747c9c9030d353863e3772bb77f56b5d17389c6df4f4f90f13",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-medium",
+          "url": "https://extension.umd.edu/resource/growing-media-potting-soil-containers",
+          "locator": "Growing media functions; Commercial soilless mixes",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "d6a00609bc3987b8e23df739622af49a012190ffaf75151c5e88f86b8ba69b2b"
+        }
+      ]
+    },
+    {
+      "entity": "systems/outdoor-grow-bags.md",
+      "claim_id": "site-water",
+      "claim_sha256": "de7f72ce74051010d6f91bad85a619410c07b4094990cf7aae7f1f1abe7dbcbf",
+      "verdict": "supports-with-scope",
+      "rationale": "Inspected the cited passage against this assertion, including its stated crop, method and units. Regional recommendations remain scoped; no field outcome or optimum is inferred.",
+      "passages": [
+        {
+          "source_id": "umd-location",
+          "url": "https://extension.umd.edu/resource/growing-vegetables-containers",
+          "locator": "Best location for a container garden",
+          "accessed": "2026-09-27",
+          "retrieved_text_sha256": "1a0fd15781d1feb0ddee443d163a2093e56dedbaf515d340c21066ebbeca57c8"
+        }
+      ]
+    }
+  ]
+}

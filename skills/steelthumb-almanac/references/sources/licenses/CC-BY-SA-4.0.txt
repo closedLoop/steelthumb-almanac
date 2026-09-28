@@ -1,3 +1,8 @@
-SPDX-License-Identifier: CC-BY-SA-4.0
+CC-BY-SA-4.0 attribution notice
 
-Creative Commons Attribution-ShareAlike 4.0 applies to SteelThumb documentation where stated. See https://creativecommons.org/licenses/by-sa/4.0/legalcode for the canonical license text.
+Basil documents marked CC-BY-SA-4.0 retain attribution to SteelThumb contributors.
+Source: https://github.com/closedloop-technologies/steelthumb/tree/decb3b444a7bedd8b0f5c2112350a682e7797536
+Changes: independently refreshed gardening sources, reorganized task guidance, and removed design assumptions.
+License: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+This notice is legal attribution, not a gardening source or a dependency needed to use the bundle.

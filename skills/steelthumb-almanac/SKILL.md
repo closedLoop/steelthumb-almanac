@@ -1,7 +1,7 @@
 ---
 name: steelthumb-almanac
 description: Consult SteelThumb Almanac's bundled gardening knowledge and evidence workflow when reviewing garden observations, finding available crop guidance, or planning a follow-up check.
-license: MIT; adapted basil material under CC-BY-SA-4.0 (see references/sources/steelthumb-basil.md)
+license: MIT; basil documents marked CC-BY-SA-4.0 retain that license (see references/sources/licenses/CC-BY-SA-4.0.txt)
 ---
 
 # SteelThumb Almanac
@@ -10,7 +10,7 @@ Start at the bundled [Almanac index](references/index.md). Follow its links to d
 
 The OKF bundle root is `references/`. A bundle-root link such as `/procedures/review-garden-observations.md` resolves inside that directory. Ordinary relative links resolve from the containing document.
 
-The bundle contains an observation workflow and [basil crop guidance](references/crops/basil.md) linking to procedures, systems, guides, and sources. Basil documents remain unreviewed adaptations; read the relevant procedure's scope, source citations, and conflicting assumptions before using it as advice. State when the collection does not cover a question. If further research is needed, distinguish newly consulted external evidence from bundled knowledge.
+The bundle contains an observation workflow and [crop guidance](references/index.md) linking to procedures, systems, guides, and direct sources. Read each procedure’s scope, source settings and unresolved decisions before applying it. State when the collection does not cover a question. If further research is needed, distinguish newly consulted external evidence from bundled knowledge.
 
 For garden advice, distinguish observations, interpretations, proposed actions, and completed actions. Preserve sources, dates, cultivar, growing conditions, units, and uncertainty where available. Ask for local details when they materially change the next step. Read the [observation workflow](references/procedures/review-garden-observations.md) when organizing a garden review.
 

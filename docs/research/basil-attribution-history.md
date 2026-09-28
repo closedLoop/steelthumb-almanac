@@ -1,4 +1,8 @@
----
+# Historical attribution record
+
+Contributor-only record; not part of the installed knowledge bundle.
+
+```yaml
 type: Source
 title: SteelThumb basil sources and attribution
 description: Pinned documentary origins, adaptation notices, and evidence limitations for the basil collection.
@@ -41,11 +45,14 @@ steelthumb:
     sha256: d66409645a87a6330c6af0cf7bdc293cf31dd9b9697bd3923d34580e657b6384
   - path: steelthumb_v1_basil/environment/SPEC.md
     sha256: 982f752f4ad1e222c952f3f5fab1772f3b1526169b74e8eacb08754e8d13852f
----
+  ontology_version: '0.2'
+```
+
+
 
 # SteelThumb basil sources and attribution
 
-Adapted from the work of **SteelThumb contributors**, originally migrated on 2026-09-27. The source documentation is credited under **CC-BY-SA-4.0**. Its [license notice](licenses/CC-BY-SA-4.0.txt) travels with this bundle. Adapted basil documents identify that license in their metadata and link here; the rest of the repository retains its own license.
+Adapted from the work of **SteelThumb contributors**, originally migrated on 2026-09-27. The source documentation is credited under **CC-BY-SA-4.0**. Its [license notice](../../skills/steelthumb-almanac/references/sources/licenses/CC-BY-SA-4.0.txt) travels with this bundle. Adapted basil documents identify that license in their metadata and link here; the rest of the repository retains its own license.
 
 Source repository: [SteelThumb](https://github.com/closedloop-technologies/steelthumb); revision `decb3b444a7bedd8b0f5c2112350a682e7797536`. [Original license notice](https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/LICENSE). Source paths and originally recorded hashes remain in this record’s metadata; they are historical source hashes, not hashes of the rewritten documents.
 

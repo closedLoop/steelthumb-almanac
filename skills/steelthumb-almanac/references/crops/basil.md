@@ -4,38 +4,47 @@ title: Basil
 description: Basil crop overview, scope, and routes to growing guidance.
 status: draft
 sources:
-- id: core
-  resource: https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/domain-knowledge/core_facts.md
-  title: SteelThumb basil cultivation reference
-- id: uf
-  resource: https://gardeningsolutions.ifas.ufl.edu/plants/edibles/vegetables/basil/
-  title: Basil — University of Florida IFAS
+- id: clemson-basil
+  title: Basil — Clemson Extension
+  resource: https://hgic.clemson.edu/factsheet/basil/
 steelthumb:
   ontology_version: '0.2'
-  review_status: unreviewed-source-adaptation
   license: CC-BY-SA-4.0
   claims:
-  - id: sweet-basil-identity
+  - id: botanical-scope
     kind: descriptive
-    statement: The earlier cultivation reference identifies sweet basil as Ocimum basilicum.
+    statement: Sweet basil is Ocimum basilicum.
+    applicability:
+      conditions: Species identity; not a particular cultivar.
     evidence:
-    - source_id: core
+    - source_id: clemson-basil
       relation: supports
       locator: Introduction
 ---
 
 # Basil
 
-“Basil” is used here as a broad culinary crop category covering several *Ocimum* species, cultivated selections, and hybrids. Sweet basil (*Ocimum basilicum*) is a narrower subject within that category.[^core][^uf]
+<a id="botanical-scope"></a>
+Sweet basil is *Ocimum basilicum*.[^clemson-basil]
 
-<a id="sweet-basil-identity"></a>
-The earlier cultivation reference identifies sweet basil as *Ocimum basilicum*.[^core]
+This is a navigation hub for culinary basil. The card below uses ordinary sweet basil as its working scope; other species and hybrids require separate applicability checks. See [selection guidance](../guides/basil-varieties.md) and the [sweet-basil profile](sweet-basil.md).
 
-## Identity and applicability
+## Quick reference
 
-Use the [sweet-basil profile](sweet-basil.md) for that explicit scope and the [variety guide](../guides/basil-varieties.md) to distinguish named cultivars from informal groups, other species, and hybrids. An unspecified basil plant is not automatically Genovese. A named cultivar is distinct from the supplier product or seed lot used in a garden.
+Seed-packet-style card for ordinary seed-grown sweet basil; identify other species or special cultivars before applying it.
 
-The imported guidance mixes outdoor cultivation and an indoor rockwool-to-container design. Read each procedure's scope; values are not universal requirements for every basil. Sources and local outcomes may disagree without describing the same conditions.
+| Field | Guidance |
+| --- | --- |
+| Start | Labeled seed or an identified plant; [water cuttings](../procedures/propagate-basil.md#water-cutting-rhs) are another route. |
+| Season / outdoor sowing | [After frost; ¼ in deep](../procedures/sow-basil.md#outdoor-sowing-umn), Minnesota method. |
+| Indoor sowing | [Surface sow; about 20°C](../procedures/sow-basil.md#indoor-sowing-rhs), separate RHS method. |
+| Outdoor spacing | [6–12 in at 2–3 true-leaf pairs](../procedures/sow-basil.md#outdoor-sowing-umn); not bag density. |
+| Light | [Sunny, 6–8 h bright light](../guides/basil-growing-conditions.md#sun-site-umn); lamp output still needs equipment guidance. |
+| Container / bag | [At least 20 cm wide and deep](../procedures/transplant-basil.md#rhs-container-planting); pot-to-fabric adaptation. |
+| Care | [Even moisture](../procedures/care-for-container-basil.md#moisture-rhs); [distinct indoor/outdoor feeding schedules](../procedures/care-for-container-basil.md#container-feeding-umn). |
+| Harvest | [Young leaves as needed; stems above a leaf pair](../procedures/harvest-basil.md#leaf-harvest-umn). |
+| Emergence / maturity | Obtain the actual packet's estimate and starting event; no universal harvest countdown. |
+| Investigate | [Yellow patches: inspect corresponding leaf undersides](../procedures/investigate-basil-symptoms.md#downy-signs-umn). |
 
 ## Growing and learning
 
@@ -52,9 +61,8 @@ The imported guidance mixes outdoor cultivation and an indoor rockwool-to-contai
 
 No firsthand field reports, measured yields, or nutritional assays were supplied with this collection. The procedure drafts have documentary origins, not demonstrated effectiveness. The separate ontology example bundle remains illustrative and is not additional evidence for this crop.
 
-## Evidence and reuse
+## Evidence scope
 
-This document reorganizes earlier SteelThumb material. Source attribution is retained; the underlying horticultural claims have not been rechecked. It records no real-world attempts or outcomes. Adapted from SteelThumb contributors under CC-BY-SA-4.0; see [attribution and changes](../sources/steelthumb-basil.md).[^core]
+Gardening claims cite the supporting passages directly. The assembled sequence and recording prompts are editorial guidance; no field outcomes are asserted.
 
-[^core]: [SteelThumb basil cultivation reference](https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/domain-knowledge/core_facts.md).
-[^uf]: [Basil — University of Florida IFAS](https://gardeningsolutions.ifas.ufl.edu/plants/edibles/vegetables/basil/).
+[^clemson-basil]: [Basil — Clemson Extension](https://hgic.clemson.edu/factsheet/basil/).

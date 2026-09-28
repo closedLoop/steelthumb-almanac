@@ -68,7 +68,47 @@ A complete procedure answers:
 
 Combine compatible source guidance only when its context warrants it, and label the combination as an editorial synthesis if it has not been evaluated as a whole. Do not imply that a source tested the assembled procedure. Keep materially different methods as explicit branches or separate procedures. Retain exact source wording for uncertain terms in notes rather than silently converting them into a precise schema.
 
-Use existing relation predicates and readable links for crop/cultivar/system applicability. Do not copy the same procedure for every cultivar; add a scoped variation when evidence supports one. Quick-reference values should link to their owning claims, and guides should link to the maintained procedure.
+Use existing relation predicates and readable links for crop/cultivar/system applicability. Do not copy the same procedure for every cultivar; add a scoped variation when evidence supports one. Guides link to the maintained procedure.
+
+## Seed-packet quick reference
+
+Model the card on the back of a seed packet: a reader can see the planting and harvest essentials without opening several files. Use a compact field/value table immediately after identity and scope. The card is a summary, not a second procedure or an actual supplier packet.
+
+Include applicable fields:
+
+- Planting material and method: direct-sown seed, transplant, tuber, slip, division, or nursery tree.
+- When to plant: frost relationship, soil or air temperature, and regional scope; calendar dates require a location.
+- Planting depth; final plant spacing and row spacing separately; thinning only when supported.
+- Light; mature habit, height, and support when established for the named selection.
+- Germination or establishment timing, with temperature and starting event when known.
+- Harvest readiness and days to maturity with the sowing/transplanting basis when supported.
+- A brief moisture/care cue and the requested container or bag dimensions, plant count, and evidence scope.
+
+Display supported values in the card and link each to its owning claim anchor. If a relevant fact currently exists only in cited procedure prose, promote it to a claim before reusing it. Retain units and conditions; qualify a generic recommendation rather than presenting it as a cultivar trial. Avoid reproducing the full instructions or adding duplicate claim records to the card.
+
+Use the actual starting material for non-seed crops: a tuber crop needs emergence and tuber planting, and a nursery tree needs establishment and fruiting readiness. Mark a missing value as unestablished and say what to consult next. A missing cultivar-specific maturity number does not block harvest when a supported readiness cue exists.
+
+## Task-completion review
+
+Read the crop as a gardener, following its links. For the pilot and then each remaining crop, record a short result with actual instructions or anchors, not a checklist of headings:
+
+| Reader decision | Evidence needed to pass |
+| --- | --- |
+| Select material | Identity and starting material are sufficient to choose the documented route; unresolved cultivar/rootstock choices are explicit. |
+| Establish | Timing, site, planting action, and applicable spacing/container setup are executable. A missing required parameter is a blocked decision. |
+| Maintain | A moisture check and supported response are usable; feed/support/seasonal care is supplied where needed or has an actionable gap. |
+| Harvest | A readiness cue and picking/lifting action are supplied; a bare maturity number is insufficient. |
+| Investigate one common failure | Distinguish an observable sign from a candidate cause, specify a check and supported response or diagnostic referral, and say what to observe next. |
+
+Assess ground and bag routes separately when both are requested. Distinguish direct bag evidence, container adaptations, and unresolved choices. A generic instruction to take photos or seek help does not by itself pass the symptom check. Editorial checks may organize observations, but source support is needed for causal claims and treatments.
+
+Keep a concise review result outside the OKF bundle when a batch warrants a durable record. It is an authoring review, not a field outcome or an OKF verification attestation. A passing structural check cannot replace this review.
+
+## Actionable gaps and concise limits
+
+Write each consequential gap as **missing fact → affected decision → next evidence or observation**. For example: “Minimum bag volume is unestablished for this cultivar; choose a supported container route or obtain a cultivar-specific container recommendation before selecting the bag.” Do not disguise an invented setting as a resolved gap.
+
+Keep crop-specific limitations beside the affected decision. Consolidate general draft status, lack of field trials, attribution, and excluded nutrition/yield/preservation work in shared source notes, linked once from each document. Retain food-use and treatment cautions where they directly affect the action. Research a blocking gap before treating a collection as complete; report any remaining block plainly.
 
 ## Sources, reports, and revision history
 

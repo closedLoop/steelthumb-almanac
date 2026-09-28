@@ -13,7 +13,7 @@ This is a repository contributor skill. Run it in a SteelThumb Almanac checkout;
 
 Read the checkout's `AGENTS.md`, `README.md`, `CONTEXT.md`, `CONTRIBUTING.md`, and `docs/ontology.md`. Read `docs/evidence.md` when adding claims, field reports, revision references, or reviews. Use [OKF guidance](../okf-spec/SKILL.md) for format decisions and [PROV guidance](../prov-spec/SKILL.md) when changing lineage semantics or producing an export. Repository contracts are authoritative over examples in this skill.
 
-Inspect the bundle index and existing crop, cultivar, procedure, and source files before creating new ones. The basil collection demonstrates document boundaries and explicit evidence gaps; its draft assumptions are not a source of facts about another crop. The separate ontology example bundle is a development fixture.
+Inspect the bundle index and existing crop, cultivar, procedure, and source files before creating new ones. The basil collection demonstrates document boundaries and explicit evidence gaps; its crop-specific guidance is not evidence for another crop. The separate ontology example bundle is a development fixture.
 
 Identify the requested crop and its scope: species/category, cultivar if relevant, edible part or growing purpose, and intended growing system or region. Use supplied context. Ask only about ambiguity that changes identity or applicability; otherwise state the working scope and continue. A general profile can preserve several regional contexts without assigning the user an invented climate.
 
@@ -21,9 +21,9 @@ Identify the requested crop and its scope: species/category, cultivar if relevan
 
 ## 2. Plan coverage and research
 
-Use [information coverage and research strategies](references/research.md) to choose topics and sources. Scale coverage to the request. For a new general profile, aim for an identity/scope page, a sourced quick reference, establishment, care, harvest, and a troubleshooting entry point. Other topics are added when useful and supported; a narrow request need not become an encyclopedia.
+Use [information coverage and research strategies](references/research.md) to choose topics and sources. For a general profile, use the [seed-packet card and task review](references/authoring.md#seed-packet-quick-reference) to define the reader's decisions: select planting material, establish it, maintain it, recognize harvest readiness, and investigate a common failure. Scale other topics to the request.
 
-Track each relevant topic as supported, conflicting, unresolved, or out of scope. This can be a working table rather than a new repository artifact. Research the gaps that affect decisions first. Avoid creating empty directories or filler facts merely to satisfy the checklist.
+Track each relevant topic as supported, conflicting, unresolved, or out of scope. For each unresolved decision, state what is missing and the next source or observation that could resolve it. Research blocking decisions first; keep general evidence limitations in shared source notes.
 
 **Complete when:** the requested coverage has a concrete research path and missing information has not been silently treated as universal, false, or zero.
 
@@ -49,11 +49,13 @@ Use the existing ontology and [citation and authoring examples](references/autho
 - `Source` and `FieldReport`: inspectable documentary origins and real published accounts. Read the evidence contract and use `templates/field-report.md` for supplied attempts.
 - Use `FoodProfile`, `YieldEstimate`, `Problem`, `Symptom`, or `MeasurementMethod` only when the material needs an independently maintained concept; consult their ontology contracts first.
 
-Place each recommendation in one authoritative location. Link to it from teaching guides and crop summaries instead of maintaining competing instructions. Preserve unknown metadata when editing existing files. Keep personal operational records in their owning workspace.
+Place each recommendation in one authoritative location. Crop cards display concise values with links to the owning claim; check both when a value changes. Teaching guides link to maintained procedures. Preserve unknown metadata when editing existing files. Keep personal operational records in their owning workspace.
+
+For a batch, author one representative crop end to end first. Use the [research and OKF quality rubric](references/RUBRIC.md) for the task review and run the structural checker; correct the card and procedure pattern before expanding the remaining crops. Choose a pilot that exercises the requested growing system. Reuse structure only where the next crop's lifecycle and decisions fit it; this is a local review, not an approval gate.
 
 For newly discovered tips, distinguish the contributor's observed result from the inferred recommendation. Record the procedure version and deviations; retain failures and pending outcomes. Untried ideas remain hypotheses. Apply the contribution guide's publication and license requirements to real reports and attachments.
 
-For imported material, map useful topics and task fragments to their destinations, retain attribution and applicable notices, and document significant omissions or corrections. Once accounted for, remove an obsolete import archive when authorized; a pinned source record can preserve origin without retaining a second manual. Source credit is not a horticultural verification event.
+For imported material, research and write standalone gardening guidance using direct sources. Keep migration history, retired design assumptions and uninspected research leads outside the OKF bundle. Preserve required attribution in a separate bundled legal notice. Readers must not need a predecessor repository to understand a concept or complete its supported route. Source credit is not a horticultural verification event.
 
 **Complete when:** the requested material is represented in useful, linked documents with inspectable evidence and explicit applicability. Gaps and conflicts remain visible to readers.
 
@@ -63,9 +65,11 @@ Update the bundle index, crop navigation, related procedures, and incoming links
 
 Check YAML, required project metadata, unique claim/source IDs, evidence joins, body footnotes, claim anchors, relative paths, typed relationships, and agreement between quantities in prose and metadata. Check citation support separately: a valid URL does not establish that its page supports the sentence. Confirm that lifecycle, source review, and actual outcomes have not been conflated.
 
-Use existing checks where applicable; do not treat the ontology-example checker as validation of the installed bundle. Run focused checks for changed files and dependencies. Do not introduce a build system just to author a crop.
+Run `python .agents/skills/build-crop-knowledge/scripts/check_bundle.py skills/steelthumb-almanac/references` (Python 3 and PyYAML). This reusable checker covers bundle structure and local references; its `--help` describes scope and limitations. Check the same bundle copied to a temporary directory. Evaluate source fidelity, card values, and reader task completion with the [quality rubric](references/RUBRIC.md); record unreviewed dimensions explicitly. Automated success does not establish them.
 
-**Complete when:** structural checks pass, each requested topic is supported or has a stated evidence gap, citation checks and their limits are reported, and the reader can navigate from the crop to its guidance and sources. Record actual verification only under the evidence contract; do not invent review events or claim field validation. Creating local content does not require publishing an issue or pushing a branch.
+For citation-refresh work, record manual passage judgments in a contributor ledger outside the bundle. Run `python .agents/skills/build-crop-knowledge/scripts/check_fidelity.py skills/steelthumb-almanac/references docs/research/citation-fidelity.json --require-complete` when using the current project ledger. This checks review coverage and stale snapshots, not whether a source is true; re-read changed assertions before updating their hashes. See [the current review scope](../../../docs/research/citation-refresh.md).
+
+**Complete when:** structural checks pass and the task review names the supported route, distinguishing symptom check, and any blocked decisions with next steps for every requested crop. Card values match their owning claims. Report partial coverage as partial even when all headings exist. Record actual verification only under the evidence contract; do not invent review events or claim field validation. Creating local content does not require publishing an issue or pushing a branch.
 
 ## Report back
 

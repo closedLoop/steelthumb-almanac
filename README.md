@@ -8,7 +8,7 @@ The central idea is simple: **debug the garden.** Observe a real plant, identify
 
 This repository starts with that reference layer: readable, linked documents that people can keep, contribute to, and use with the AI tools of their choice. The initial goal is to document the plants in a real garden well, then expand through contributions from other gardeners and agents.
 
-> **Project status:** The installable skill and Codex plugin include an [OKF knowledge bundle](skills/steelthumb-almanac/references/index.md), the garden-observation workflow, and [basil guidance](skills/steelthumb-almanac/references/crops/basil.md) organized into crop profiles, procedures, growing systems, guides, and sources. Basil content remains draft material awaiting source review. The field-report contribution format is documented; no real field reports or validated growing outcomes have been added.
+> **Project status:** The installable skill and Codex plugin include an [OKF knowledge bundle](skills/steelthumb-almanac/references/index.md), the garden-observation workflow, and [crop guidance](skills/steelthumb-almanac/references/index.md) organized into crop profiles, procedures, growing systems, guides, and sources. The crop references are drafts with scoped source guidance and explicit research gaps. The field-report contribution format is documented; no real field reports or validated growing outcomes have been added.
 
 ## Installation
 
@@ -58,7 +58,11 @@ The canonical bundle uses **Open Knowledge Format (OKF) v0.2**: human-readable M
 
 A **crop** is a practical category of plants grown for a purpose; a **cultivar** is a named cultivated selection. Broad basil guidance, sweet-basil guidance, and a claim about a specific cultivar have different scopes. Create a separate cultivar profile when supported differences warrant it, rather than copying the entire crop guide.
 
-### Browse the basil collection
+### Browse the crop collections
+
+The [crop collection](skills/steelthumb-almanac/references/index.md) also includes nasturtium, sugar snap peas, sunflowers, culinary mint, Yukon Gold and russet potatoes, sweet potatoes, jalapeño peppers, cherry tomatoes, dwarf Meyer lemon, and dwarf limes. Each entry links establishment, care and troubleshooting, harvest, and grow-bag guidance. Source-specific recommendations and untested container adaptations remain explicit; these draft additions do not assert field validation.
+
+For another crop, start with [Jerusalem artichoke (sunchoke)](skills/steelthumb-almanac/references/crops/jerusalem-artichoke.md). Its draft collection covers planting, care, harvest, storage, and troubleshooting in garden soil and grow bags. Source passages were inspected during drafting; grow-bag adaptations remain untested and no field outcomes are claimed.
 
 Start with the [basil profile](skills/steelthumb-almanac/references/crops/basil.md), or the explicitly scoped [sweet-basil profile](skills/steelthumb-almanac/references/crops/sweet-basil.md). The profiles link to sowing, transplanting, care, propagation, harvesting, symptom investigation, and seasonal continuity. The [learning guide](skills/steelthumb-almanac/references/guides/basil-learning-guide.md) follows those same procedures instead of maintaining separate instructions.
 
@@ -70,6 +74,7 @@ skills/steelthumb-almanac/
   references/                     # Independently usable OKF bundle
     index.md
     crops/                        # Identity, scope, and navigation
+    cultivars/                    # Named selections and supported differences
     procedures/                   # Complete tasks and follow-up
     systems/                      # Growing arrangements and constraints
     guides/                       # Teaching and cross-cutting guidance
@@ -77,7 +82,7 @@ skills/steelthumb-almanac/
       licenses/
 ```
 
-Cultivar and field-report directories are added when supported content exists. The former basil import folder has been removed; [attribution and pinned source references](skills/steelthumb-almanac/references/sources/steelthumb-basil.md) remain. [Refactor coverage](docs/basil-refactor.md) accounts for the old documents and task fragments. The separate [ontology examples](docs/ontology-examples/README.md) are development fixtures, not additional installed guidance or observed garden results.
+The cultivar directory contains Yukon Gold; a field-report directory will be added when real supplied reports exist. [Basil source notes](skills/steelthumb-almanac/references/sources/basil-research.md) document inspected passages and limits. The separate [ontology examples](docs/ontology-examples/README.md) are development fixtures, not additional installed guidance or observed garden results.
 
 Food uses, nutrition, calories, yields, and practical tips can be included where they are supported. Quantities should identify their basis: for example, edible fresh weight versus dry weight, or yield per plant versus per unit area over a specified period.
 
@@ -184,4 +189,4 @@ Start with something you actually grow or a problem you have investigated. Follo
 
 Describe the question, provide the evidence, identify the conditions, and explain what remains unknown. Small, well-supported improvements are valuable. The first milestone is a useful collection for one real garden, with a repeatable way for other people and agents to expand it.
 
-The repository is licensed under the [MIT License](LICENSE), except the [adapted basil material](skills/steelthumb-almanac/references/sources/steelthumb-basil.md), which retains CC-BY-SA-4.0. Referenced third-party material remains subject to its own license and attribution requirements.
+The repository is licensed under the [MIT License](LICENSE), except the [adapted basil material](skills/steelthumb-almanac/references/sources/basil-research.md), which retains CC-BY-SA-4.0. Referenced third-party material remains subject to its own license and attribution requirements.

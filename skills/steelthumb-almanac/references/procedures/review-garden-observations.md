@@ -4,9 +4,11 @@ title: Review garden observations
 description: Separate observations from explanations, choose a next check, and record the outcome.
 status: draft
 sources:
-  - id: steelthumb-project
-    resource: https://github.com/closedLoop/steelthumb-almanac/blob/main/README.md
-    title: SteelThumb Almanac project overview
+- id: steelthumb-project
+  resource: https://github.com/closedLoop/steelthumb-almanac/blob/main/README.md
+  title: SteelThumb Almanac project overview
+steelthumb:
+  ontology_version: '0.2'
 ---
 
 # Review garden observations

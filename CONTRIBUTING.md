@@ -42,7 +42,7 @@ For tips without supporting evidence, use `kind: hypothesis` and `evidence: []`.
 
 ## Attribution and reuse
 
-Offer your original contributions under the repository's MIT license, or state another compatible license for maintainer review. Adaptations of the bundled CC-BY-SA-4.0 basil material retain that license and its attribution; see the [basil source record](skills/steelthumb-almanac/references/sources/steelthumb-basil.md). A citation does not grant permission to copy the cited work.
+Offer your original contributions under the repository's MIT license, or state another compatible license for maintainer review. Adaptations of the bundled CC-BY-SA-4.0 basil material retain that license and its attribution; see the [bundled license notice](skills/steelthumb-almanac/references/sources/licenses/CC-BY-SA-4.0.txt). A citation does not grant permission to copy the cited work.
 
 Retain authors, source URLs, revision identifiers, applicable notices, and a description of adaptations. Obtain the contributor's publication and license agreement before converting a report into bundled content. An incomplete agreement can be clarified in the issue; it is not permission by silence.
 

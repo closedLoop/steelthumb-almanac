@@ -1,39 +1,40 @@
 ---
 type: Procedure
 title: Care for container basil
-description: Observe moisture, light, feeding, and sanitation with explicit unresolved assumptions.
+description: Moisture and feeding guidance for basil in containers, with indoor and outdoor schedules
+  separated.
 status: draft
 sources:
-- id: tasks
-  resource: https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/tasks/tasks.yaml
-  title: SteelThumb task instruction templates
-- id: environment
-  resource: https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/environment/SPEC.md
-  title: SteelThumb environment specification
+- id: umn-basil
+  title: Growing basil in home gardens — Minnesota Extension
+  resource: https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/growing-basil
+- id: rhs-basil
+  title: How to grow basil — RHS Advice Team
+  resource: https://www.rhs.org.uk/herbs/basil/grow-your-own
 steelthumb:
   ontology_version: '0.2'
-  review_status: unreviewed-source-adaptation
   license: CC-BY-SA-4.0
   claims:
-  - id: task-feeding-assumption
-    kind: descriptive
-    statement: The task catalog specifies monthly feeding at half label strength.
-    evidence:
-    - source_id: tasks
-      relation: supports
-      locator: half_strength_fertilization
+  - id: container-feeding-umn
+    kind: recommendation
+    statement: Use half-label-strength liquid fertilizer every 4–6 weeks indoors or 3–4 weeks in outdoor
+      containers.
     applicability:
-      conditions: Original indoor task assumption; fertilizer unspecified.
-  - id: environment-feeding-assumption
-    kind: descriptive
-    statement: The environment transition table specifies full-strength feeding of 200 ml after at least
-      fourteen days.
+      conditions: Minnesota guidance; identify product and medium before applying. Not a fixed nutrient
+        concentration.
     evidence:
-    - source_id: environment
+    - source_id: umn-basil
       relation: supports
-      locator: State transition table
+      locator: Soil pH and fertility → Soil testing and fertilizer
+  - id: moisture-rhs
+    kind: recommendation
+    statement: Keep compost evenly moist; avoid overwatering and splashing foliage.
     applicability:
-      conditions: Original simulator transition assumption; fertilizer unspecified.
+      conditions: Basil containers; frequency depends on actual conditions.
+    evidence:
+    - source_id: rhs-basil
+      relation: supports
+      locator: Plant care → Watering
   relations:
   - predicate: applies_to
     target: /crops/basil.md
@@ -41,44 +42,31 @@ steelthumb:
 
 # Care for container basil
 
-Applies to [basil](../crops/basil.md) within the scope stated below.
-
-## Purpose and scope
-
-Maintain basil in the [indoor container arrangement](../systems/indoor-basil-containers.md). The earlier task catalog supplies draft care steps; it contains no observed outcomes.[^tasks]
+Applies to [basil](../crops/basil.md) in drained containers, indoors or outdoors.
 
 ## Routine
 
-1. Observe medium moisture and plant condition before watering. The task uses dryness in the top inch (about 2–3 cm) as a trigger and waters to slight runoff, draining the saucer within ten minutes. This is an unreviewed rule for an unspecified medium.[^tasks]
-2. Check lighting, airflow, and temperature. The task suggests vegetative temperatures around 65–75°F (18–24°C), lamp distance of 6–12 inches for established plants, and gentle airflow. Record actual measurements; equipment details remain missing.[^tasks]
-3. Observe stretching or leaning before changing light placement. Pot rotation by 90 degrees appears in several tasks; consolidate it into one recorded action, rather than counting duplicate instructions as separate evidence.[^tasks]
-4. Choose feeding only after resolving the product, concentration, medium, and plant context. The source schedules below disagree; this document selects neither.[^tasks][^environment]
-5. Clear debris and clean tools using a suitable method. The original sanitation task specifies alcohol wipes without concentration or contact time; those details require a supported product/method before use.[^tasks]
+1. Record the medium, container, fertilizer product and recent feeding.
+2. Check medium moisture and use the moisture setting below; inspect drainage if the medium stays wet.
+3. Select the indoor or outdoor feeding branch below, accounting for the product label and medium nutrients. Record actual dilution and application date.
+4. Use [growing conditions](../guides/basil-growing-conditions.md) to assess the site. Artificial light requires fixture-specific guidance and measurements.
+5. Inspect new growth and both leaf surfaces. Use [symptom investigation](investigate-basil-symptoms.md) before treating yellowing.
 
-## Conflicting feeding assumptions
+## Follow-up and unresolved settings
 
-| Source | Earlier instruction | Missing applicability |
-| --- | --- | --- |
-| Task catalog | Half label strength monthly; no feeding during the initial 10–14-day establishment check | Product, concentration, medium nutrient content, and plant response |
-| Environment transition table | Full strength, 200 ml, after at least 14 days since previous feeding | Product, concentration, container/plant size, and empirical basis |
+Record moisture, leaf condition and growth at the next care visit. Persistent deterioration warrants checking drainage, root condition and disease signs before changing several inputs together. No universal flushing volume, disinfectant recipe or hydroponic nutrient recipe is established here.
 
-<a id="task-feeding-assumption"></a>
-The task catalog specifies monthly feeding at half label strength.[^tasks]
+## Source settings
 
-<a id="environment-feeding-assumption"></a>
-The environment transition table specifies full-strength feeding of 200 ml after at least fourteen days.[^environment]
+<a id="container-feeding-umn"></a>
+Use half-label-strength liquid fertilizer every 4–6 weeks indoors or 3–4 weeks in outdoor containers.[^umn-basil]
 
-## Follow-up and troubleshooting
+<a id="moisture-rhs"></a>
+Keep compost evenly moist; avoid overwatering and splashing foliage.[^rhs-basil]
 
-Record dates, measured amounts, product formulation, before/after condition, and simultaneous changes. A salt-crust task proposes flushing with 2–3 pot volumes of water; this remains an unreviewed intervention requiring confirmation of the medium and problem, not a response automatically justified by a visible crust.[^tasks]
+## Evidence scope
 
-Use [symptom investigation](investigate-basil-symptoms.md) for yellowing, pests, or suspected disease. Leaf rinsing, soap application, nutrient supplements, and altered humidity are interventions whose suitability must be established separately.
+Gardening claims cite the supporting passages directly. The assembled sequence and recording prompts are editorial guidance; no field outcomes are asserted.
 
-This consolidates `routine_watering`, `half_strength_fertilization`, `leach_salts`, `adjust_light_distance`, `monthly_light_position_maintenance`, `rotate_pot`, `temperature_rh_monitoring`, and `sanitation_cycle`.[^tasks]
-
-## Evidence and reuse
-
-This document reorganizes earlier SteelThumb material. Source attribution is retained; the underlying horticultural claims have not been rechecked. It records no real-world attempts or outcomes. Adapted from SteelThumb contributors under CC-BY-SA-4.0; see [attribution and changes](../sources/steelthumb-basil.md).[^tasks]
-
-[^tasks]: [SteelThumb task instruction templates](https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/tasks/tasks.yaml).
-[^environment]: [SteelThumb environment specification](https://github.com/closedloop-technologies/steelthumb/blob/decb3b444a7bedd8b0f5c2112350a682e7797536/steelthumb_v1_basil/environment/SPEC.md).
+[^umn-basil]: [Growing basil in home gardens — Minnesota Extension](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/growing-basil).
+[^rhs-basil]: [How to grow basil — RHS Advice Team](https://www.rhs.org.uk/herbs/basil/grow-your-own).
